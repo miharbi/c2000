@@ -1,0 +1,607 @@
+<tr>
+	<td><span class="chatboxNombre">ronny: </span><span class="chatboxMensaje">disculpaen como hago para comprar equipos con usteds mi correo es rocer_20@hot...</span> <span class="chatboxInfo">15/11/2010 15:52 IP:190.78.168.221</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Saludos Ronny, te envie un correo con la informacion solicitada</span> <span class="chatboxInfo">15/11/2010 16:36 IP:190.203.41.119</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">orquidea: </span><span class="chatboxMensaje">hola como esta</span> <span class="chatboxInfo">15/11/2010 17:38 IP:186.6.19.36</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Daniel Pérez: </span><span class="chatboxMensaje">Por favor, se pueden comprar Chaquetas impermeables deportivas delgadas y los rompevientos para hombres.</span> <span class="chatboxInfo">23/11/2010 20:47 IP:190.204.4.35</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">humboldt: </span><span class="chatboxMensaje">El pez muere por la boca.... jajajaja</span> <span class="chatboxInfo">24/11/2010 16:35 IP:201.230.43.132</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juan: </span><span class="chatboxMensaje">calendarios de diciembre!!!!!!!!!!! !!!!!!11111111</span> <span class="chatboxInfo">04/12/2010 17:32 IP:201.242.121.243</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Ramartinez: </span><span class="chatboxMensaje">Buenos dias, Agradeceria si me pueden enviar informaciòn de chaquetas GORE TEX. Mi correo es ramr_plc@msn.com.</span> <span class="chatboxInfo">08/12/2010 12:03 IP:190.216.245.18</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nelson: </span><span class="chatboxMensaje">intento de las cinco aguilas en solitario, tremendo desafio. Felicitaciones</span> <span class="chatboxInfo">02/01/2011 14:35 IP:190.77.159.229</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">jf: </span><span class="chatboxMensaje">cual pico queda mas cerca de loma redonda??? </span> <span class="chatboxInfo">05/01/2011 20:41 IP:201.211.170.34</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">jesus ruz: </span><span class="chatboxMensaje">les cuento que el miercoles 5 hicimos cumbre celebrando el 76 aniversario de ll primer ascenso al pico bolivar hescho por domingo peña    hicimos cumbrev con sus nietos reinaldo y domingo </span> <span class="chatboxInfo">07/01/2011 21:29 IP:200.8.76.98</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">jesus ruz: </span><span class="chatboxMensaje">y claro el pana ubaldo y yo jesus ruz </span> <span class="chatboxInfo">07/01/2011 21:30 IP:200.8.76.98</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">xxx: </span><span class="chatboxMensaje">Secuestraron y robaron a 75 personas en el cerro el casupo aca en valencia ayer</span> <span class="chatboxInfo">17/01/2011 10:37 IP:186.25.49.181</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">xxx: </span><span class="chatboxMensaje">uh ah chavez no se va....</span> <span class="chatboxInfo">17/01/2011 10:38 IP:186.25.49.181</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">andreu: </span><span class="chatboxMensaje">ola ai alguien ?</span> <span class="chatboxInfo">18/01/2011 15:43 IP:83.43.130.52</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yat: </span><span class="chatboxMensaje">Como se llega a la laguna el encierro???</span> <span class="chatboxInfo">24/01/2011 18:01 IP:201.249.66.126</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Joge: </span><span class="chatboxMensaje">amigo, muy buenos los fondos de escritorio, tienes los de febrero?</span> <span class="chatboxInfo">02/02/2011 11:12 IP:166.210.32.1</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Actualizados los fondos de escritorio mes de Febrero 2011</span> <span class="chatboxInfo">02/02/2011 13:48 IP:190.203.41.119</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maria: </span><span class="chatboxMensaje">hola.....</span> <span class="chatboxInfo">02/02/2011 15:12 IP:201.248.78.11</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Pedro: </span><span class="chatboxMensaje">Cual es el calzado gore-tex</span> <span class="chatboxInfo">03/02/2011 16:33 IP:148.220.221.101</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Amigo Pedro, Gore-Tex es un tejido impermeable-transpirable que llevan algunos zapatos, no es una marca de zapatos como tal</span> <span class="chatboxInfo">05/02/2011 15:24 IP:186.25.169.245</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">YH: </span><span class="chatboxMensaje">Mensaje</span> <span class="chatboxInfo">09/02/2011 06:58 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Yerman: </span><span class="chatboxMensaje">wenas  </span> <span class="chatboxInfo">09/02/2011 06:58 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">matibel: </span><span class="chatboxMensaje">holaaa  </span> <span class="chatboxInfo">09/02/2011 06:59 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nadia: </span><span class="chatboxMensaje">olaaaaaaa  </span> <span class="chatboxInfo">09/02/2011 06:59 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maribel: </span><span class="chatboxMensaje">ke pasa petardos!!  </span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maribel: </span><span class="chatboxMensaje">que nops vamos de excursion!!!</span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">BISBAL: </span><span class="chatboxMensaje">OLAAA jaja  </span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nadia: </span><span class="chatboxMensaje">hola cumbres 2000  </span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nadia: </span><span class="chatboxMensaje">jajajjaa  </span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maribel: </span><span class="chatboxMensaje">ola bisball  </span> <span class="chatboxInfo">09/02/2011 07:00 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">BISBAL: </span><span class="chatboxMensaje">ustedes tambien soy de prevencion?</span> <span class="chatboxInfo">09/02/2011 07:01 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maribel: </span><span class="chatboxMensaje">siii</span> <span class="chatboxInfo">09/02/2011 07:01 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nadia: </span><span class="chatboxMensaje">no</span> <span class="chatboxInfo">09/02/2011 07:01 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">BISBAL: </span><span class="chatboxMensaje">como q no nadia si te toy viendo</span> <span class="chatboxInfo">09/02/2011 07:02 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">la paki de sole: </span><span class="chatboxMensaje">hola xavales</span> <span class="chatboxInfo">09/02/2011 07:03 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rosaura: </span><span class="chatboxMensaje">ola wapetones  </span> <span class="chatboxInfo">09/02/2011 07:04 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">BISBAL : </span><span class="chatboxMensaje">corazonnn latinoo(8)  </span> <span class="chatboxInfo">09/02/2011 07:04 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rosaura: </span><span class="chatboxMensaje">alguien kiere una novia?</span> <span class="chatboxInfo">09/02/2011 07:04 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">falete: </span><span class="chatboxMensaje">BUH!</span> <span class="chatboxInfo">09/02/2011 07:04 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rosaura: </span><span class="chatboxMensaje">cumbres 2000 d donde eres jajajajajaj</span> <span class="chatboxInfo">09/02/2011 07:05 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">falete: </span><span class="chatboxMensaje">CUMBRES 200 ES MIO PERAA!:p  </span> <span class="chatboxInfo">09/02/2011 07:05 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rosaura: </span><span class="chatboxMensaje">cumbressss  </span> <span class="chatboxInfo">09/02/2011 07:05 IP:80.24.86.182</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">celia: </span><span class="chatboxMensaje">olaaaa</span> <span class="chatboxInfo">10/02/2011 13:52 IP:194.179.126.154</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">celia: </span><span class="chatboxMensaje">estoy en el curro i he descubierto k pudo hablar</span> <span class="chatboxInfo">10/02/2011 13:52 IP:194.179.126.154</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Oscar: </span><span class="chatboxMensaje">Buenas tardes habra alguien que me pueda dar una info del transporte que va a los nevados? gracias</span> <span class="chatboxInfo">15/02/2011 13:56 IP:200.109.128.46</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Oscar: </span><span class="chatboxMensaje">necesito saber los dias y horarios que tiene este servicio aparte del costo... muchas gracias</span> <span class="chatboxInfo">15/02/2011 13:56 IP:200.109.128.46</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Marc: </span><span class="chatboxMensaje">hola celia!!</span> <span class="chatboxInfo">16/02/2011 16:18 IP:88.26.19.44</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Ivan: </span><span class="chatboxMensaje">Epa David deberias poner en el calendario de eventos el proyecto del que te hable jeje</span> <span class="chatboxInfo">23/02/2011 16:40 IP:201.243.15.86</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">ramonfloyd: </span><span class="chatboxMensaje">excelente pagina! un abrazo desde trujillo</span> <span class="chatboxInfo">26/02/2011 18:59 IP:190.142.213.107</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Abrahan: </span><span class="chatboxMensaje">Buenos Dias, Quisiera saber si tienen informacion de cuando vuelven a abrir el Avila hacia el Naiguata?</span> <span class="chatboxInfo">08/03/2011 11:47 IP:200.84.120.75</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">cumbres2000: </span><span class="chatboxMensaje">Prueba</span> <span class="chatboxInfo">27/05/2011 10:04 IP:190.205.108.60</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">qwe: </span><span class="chatboxMensaje">qwe</span> <span class="chatboxInfo">08/06/2011 16:18 IP:186.186.197.217</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">oscar: </span><span class="chatboxMensaje">exelente el cambio de la pag, buen trabajo!!</span> <span class="chatboxInfo">15/06/2011 16:39 IP:200.44.227.15</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">oscar: </span><span class="chatboxMensaje">exelente el cambio... buen trabajo</span> <span class="chatboxInfo">15/06/2011 16:39 IP:200.44.227.15</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Gracias mi pana, se aceptan sugerencias</span> <span class="chatboxInfo">15/06/2011 17:02 IP:190.205.108.60</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Luis: </span><span class="chatboxMensaje">muy bueno el cambio... pro no kiere dscargar :S</span> <span class="chatboxInfo">15/06/2011 19:16 IP:190.198.115.77</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Luis: </span><span class="chatboxMensaje">ah ya dscargo... gracias y disculpn si era mi cmpu :)</span> <span class="chatboxInfo">17/06/2011 22:41 IP:201.242.86.191</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">sivia: </span><span class="chatboxMensaje">esta bien chidisimo el ojos del salado no?.  adios pinches chavos</span> <span class="chatboxInfo">23/06/2011 20:10 IP:189.228.213.61</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yaya: </span><span class="chatboxMensaje">hola</span> <span class="chatboxInfo">25/06/2011 03:45 IP:186.184.155.184</span></td>
+</tr>
+
+<tr>
+	<td><span class="chatboxNombre">Jhon : </span><span class="chatboxMensaje">wuuuuua uuuuu que linda pagina  </span> <span class="chatboxInfo">30/06/2011 15:34 IP:186.42.61.165</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rigel Rios: </span><span class="chatboxMensaje">Hola estimados compañeros, espero esten bien. Estaba leyendo la ruta de las cinco aguilas blancas y quisiera saber si es posible organizar este viaje para comienzos de diciembre (si la epoca es buena)</span> <span class="chatboxInfo">02/07/2011 14:31 IP:190.121.238.147</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rigel Rios: </span><span class="chatboxMensaje">tambien quisiera saber el costo de esta travesia. Somos tres personas (probablemente 4) y queremos ir pagando desde ya.....</span> <span class="chatboxInfo">02/07/2011 14:35 IP:190.121.238.147</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rigel Rios: </span><span class="chatboxMensaje">agradeceria me enviaran un correo electronico con el presupuesto a rigel.rios@gmail.com ... graciuas y saludos</span> <span class="chatboxInfo">02/07/2011 14:36 IP:190.121.238.147</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">derys: </span><span class="chatboxMensaje">hola amigo, para el 25/08/2011 tengo planeado tomar la ruta del cacao, turmero chuao... el que quiera notarce comuniquece a este correo.... alogeno123@hotmail.c om</span> <span class="chatboxInfo">03/08/2011 23:06 IP:190.121.239.143</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Carolina : </span><span class="chatboxMensaje">Felicitaciones por su pagina, muy buena =)</span> <span class="chatboxInfo">05/08/2011 12:37 IP:159.90.31.50</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juan diego: </span><span class="chatboxMensaje">excelente sitio. </span> <span class="chatboxInfo">16/08/2011 14:38 IP:190.78.179.99</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">DanSer: </span><span class="chatboxMensaje">muy completa la pagina y unos paisajes preciosos, gracias por compartir, saludos desde España</span> <span class="chatboxInfo">17/08/2011 17:43 IP:83.55.120.188</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Mauro: </span><span class="chatboxMensaje">Excelente pagina...   Podrian subir los link de los videos que estan caidos por favor.</span> <span class="chatboxInfo">21/08/2011 13:50 IP:186.36.209.208</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Gracias Mauro, ya estoy ajustando los videos</span> <span class="chatboxInfo">21/08/2011 14:27 IP:186.187.249.211</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">maria : </span><span class="chatboxMensaje">La mejor pagina de montañismo de Venezuela</span> <span class="chatboxInfo">30/08/2011 12:43 IP:192.168.3.2</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">luis: </span><span class="chatboxMensaje">que saben del muchacho de caracas que supuestamente murio en el bolivar de un edema pulmonar?</span> <span class="chatboxInfo">02/09/2011 21:47 IP:190.76.111.11</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">jose javier: </span><span class="chatboxMensaje">Buenas tarde, es cierto mi pana, el muchacho se llamaba Luis Pico, murio de un edema pulmonar, sus compañeros avisaron por tlf pero el 171 de merida tardo 10 horas en avisar a los grupos de rescate...</span> <span class="chatboxInfo">06/09/2011 15:20 IP:201.242.210.221</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">joselyn: </span><span class="chatboxMensaje">Hola, Buena pagina, me encanto, soy de bqto, y ya he caminado en tres oportunidades la ruta hasta la laguna verde. Mas buena,</span> <span class="chatboxInfo">07/09/2011 22:50 IP:186.24.23.5</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">joselyn: </span><span class="chatboxMensaje">Tenemos pensado subir para la semana del 13 al 18 somos 5 personas, necesitamos, algun contacto, queremos hacer cumbre humbolt</span> <span class="chatboxInfo">07/09/2011 22:51 IP:186.24.23.5</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">joselyn: </span><span class="chatboxMensaje">Para la informacion mi correo es emoniquitane@hotmail .com, Gracias en lo que nos puedan ayudar se lo sabriamos agradecer.</span> <span class="chatboxInfo">07/09/2011 22:54 IP:186.24.23.5</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">peter pan: </span><span class="chatboxMensaje">Se le informa a todos los compañeros montañista que el clima reinante en merida aun no es el mas acorde para escalar cualquier pico las lluvias reinantes y los vientos gelidos y nevadas aun continuan tomen esto en consideracion no es el mejor momento la prevencion es la mejor herramienta para evitar un accidente....</span> <span class="chatboxInfo">08/09/2011 20:51 IP:186.93.72.221</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">carlos: </span><span class="chatboxMensaje">Un accidente puede ocurrir en cualquier momento y a cualquiera, en verano o en invierno, a GUIAS, montañistas. La prevencion es importante pero no se puede limitar a nadie hacer montaña, todo tiene control, responsabilidad. Nadie puede crear miedos y conceptos inadecuados de la montaña, menos a personas que inician en este deporte, en Venezuela eso debe borrarse en todas las montañas del mundo existen accidentes, y no por eso se le dira a la gente que no suba a la montaña, el aprendizaje y madurez se ganan subiendo con madurez</span> <span class="chatboxInfo">11/09/2011 20:35 IP:200.8.187.116</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">rosa: </span><span class="chatboxMensaje">excelente tu pagina, informacion muy completa, felicidades,</span> <span class="chatboxInfo">20/01/2012 09:14 IP:186.188.96.211</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Gracias Rosa</span> <span class="chatboxInfo">22/01/2012 19:01 IP:186.185.51.170</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alejandro: </span><span class="chatboxMensaje">voy a hacer la ruta del humboldt hasta pico naiguaata en febrero quien se quiera anotar esta cordialmente invitado</span> <span class="chatboxInfo">22/01/2012 22:41 IP:190.79.209.8</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">himalaya: </span><span class="chatboxMensaje">desde hace unos meses que me volvi a dar cuenta de lo importante que es escalar para mi es como si todo tuviese sentido de nuevo, ahora todo lo que hago lo hago en base a el montañista que quiero llegar a ser, actualmente estoy entrenando para en octubre subir al pico bolivar, pero entreno como para subir al aconcagua y asi....no tengo metas pero estoy seguro de que voy a llegar muy alto. SALUD </span> <span class="chatboxInfo">23/01/2012 08:47 IP:190.79.209.8</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Gus: </span><span class="chatboxMensaje">Hola Chicos, excelente pag. como estan las condiciones climaticas en este momento para subir el bolivar???</span> <span class="chatboxInfo">24/01/2012 14:09 IP:150.70.64.193</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Melanie: </span><span class="chatboxMensaje">Quiero felicitarles por todos los rincones y cimas maravillosas que han alcanzado, y sobre todo agradecerles, como excursionista, por toda la valiosisima informacion que comparten en su pag. estoy muy</span> <span class="chatboxInfo">25/01/2012 14:35 IP:200.1.171.140</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Ricardo: </span><span class="chatboxMensaje">SALUDOS ALEJANDRO vi tu mensaje y me interesa ir en esa expedicion al NAIGUATA, desde ya quiero comenzar a entrenar para subir al humboldt (FUERA DE FORMA OBVIO). por cierto Mis padres tiene casa en T</span> <span class="chatboxInfo">27/01/2012 16:13 IP:190.75.231.40</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">ALEJANDRO: </span><span class="chatboxMensaje">EPALE RICARDO bueno yo llevo cerca de 1 mes entrenando, mensajeame y hablamos 0412 367 06 35</span> <span class="chatboxInfo">27/01/2012 21:56 IP:190.79.209.8</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">hadesvzla: </span><span class="chatboxMensaje">quien me puede decir q tal esta el clima en merida estoy cuadrando un viaje... quienes iran a merida para el fin de semana del 17  de este mes y q rutas tienen planeadas.. mi corro es hades-nox@hotmai</span> <span class="chatboxInfo">05/02/2012 16:00 IP:190.142.212.161</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cumbres2000: </span><span class="chatboxMensaje">Saludos hadesvzla, la webcam de Pico Espejo te puede dar una idea de como esta el clima en las alturas merideñas</span> <span class="chatboxInfo">07/02/2012 04:59 IP:186.24.139.22</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">vvvv: </span><span class="chatboxMensaje">me facina lapagina </span> <span class="chatboxInfo">07/02/2012 15:37 IP:186.14.51.154</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alejandro: </span><span class="chatboxMensaje">este es el fin de semane del ascenso a pico naiguata desde el hotel humboltd el que se quiera anotar aun esta a tiempo..............</span><br><span class="chatboxInfo">14/02/2012 22:09 IP:190.79.209.8</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">nelson c.: </span><span class="chatboxMensaje">saludos amigos monta�istas alguien sabra donde puedo comprar el libro de la gente de proyecto cumbre \&quot;desafio polos \&quot; gracias.</span><br><span class="chatboxInfo">14/03/2012 09:51 IP:190.36.224.141</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Ana: </span><span class="chatboxMensaje">Buenas! alguien q me recomiende un tienda en css donde vendan zapatos de monta�a buenos y baratos...</span><br><span class="chatboxInfo">28/03/2012 09:38 IP:186.188.17.81</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">bask: </span><span class="chatboxMensaje">ana ve para rockland en san ignacio y el centro palaza bolivar son baratos y regulares</span><br><span class="chatboxInfo">31/03/2012 15:23 IP:190.79.151.192</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Hendrick: </span><span class="chatboxMensaje">Saludos, alguien tiene informaci�n acerca de alguna ruta establecida entre El Tisure- Alto de Santo Cristo- Laguna Verde (M�rida, Sierra Nevada). Si tienen informaci�n agradecer�a respuesta.</span><br><span class="chatboxInfo">01/04/2012 15:30 IP:190.121.238.160</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Pedro: </span><span class="chatboxMensaje">Hola! tengo 15 a�os y me estoy  iniciando en el excursionismo, en selvas, vivo en Los Pijiuaos Edo Bolivar, al oeste del mismo, cerca de Amazonas, me gustaria que alguien le echara un vistazo a esta localidad ya que tiene mucho potencial para el excursionismo, la escalada, rapel y el canyoping. si quieren comunicarse conmigo joystiquero@gmail.com o mi Facebook Pedro Austral Arcila.</span><br><span class="chatboxInfo">07/04/2012 03:44 IP:190.76.73.223</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Pedro: </span><span class="chatboxMensaje">correccion, Los Pijiguaos...</span><br><span class="chatboxInfo">07/04/2012 04:14 IP:190.76.73.223</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alex: </span><span class="chatboxMensaje">hola amigo alguno de uds saben si ha nevado fuera de merida? quiz�s en tachira o trujillo?</span><br><span class="chatboxInfo">08/04/2012 11:40 IP:200.84.182.206</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">emilio: </span><span class="chatboxMensaje">este fin de semana fui al pico leon el clima insuperables despejada la cumbre hasta el mediodida y no llovio sino hasta la tarde del stercer dia (miercoles) de resto pocas nubes a partir de las tres pm</span><br><span class="chatboxInfo">29/04/2012 10:48 IP:200.109.168.13</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yorman: </span><span class="chatboxMensaje">Del alto de santo cristo a la laguna verde hay una ruta que es bajando por el camino de los Arangures ( el inicio esta adyacente al letrero que dice 4200 m.s.n.m.) llegaras a una especie de mini sabana al lado de un rio (ideal para acampar) que se llama  posada de don alfonso, de alli sigues bajando hasta que llegaras a una \&quot;T\&quot; donde encontraras otro rio de gran volumen  alli se cruza a la derecha</span><br><span class="chatboxInfo">06/05/2012 12:23 IP:186.93.30.49</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yorman: </span><span class="chatboxMensaje">a partir de ese momento solo es subidas muy inclinadas  que dan ganas de llorar hay varios caminos  siempre teniendo que tomar hacia la izquierda y se va a llegar por la parte superior de la laguna verde . recomiendo buscar un guia (baquiano) despues del rio de gran volumen es bastante desorientador. en ese mismo punto hay una casa a la izquierda alli puedes pedir un baquiano para ese trayecto   </span><br><span class="chatboxInfo">06/05/2012 12:29 IP:186.93.30.49</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yorman: </span><span class="chatboxMensaje">El resto no es tan dificil pero esa travesia es muy dura pero es tremenda experiencia  espero haberte medio orientado amigo hendrick.... </span><br><span class="chatboxInfo">06/05/2012 12:32 IP:186.93.30.49</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yanior: </span><span class="chatboxMensaje">QUE VIVAN LAS MONTA�AS</span><br><span class="chatboxInfo">04/06/2012 20:53 IP:190.201.201.246</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Florrebelde: </span><span class="chatboxMensaje">Saludos que bueno encontrarlos, vivo en Trujillo hermanos y amigos de la monta�a siempre.</span><br><span class="chatboxInfo">24/06/2012 14:06 IP:186.93.250.194</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">odemaris meza: </span><span class="chatboxMensaje">hola buenas tardes , queria saber si tengo chance de iscribir a mi hijo en el maraton  junior ...al milenium....:?? mi correo es wina13@hotmail.com  gracias </span><br><span class="chatboxInfo">29/06/2012 16:02 IP:1.1 KIASMASTER</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">edecio: </span><span class="chatboxMensaje">saludos colegas amantes de las monta�as soy  de trujillo pero estoy residenciado en  valencia todos los a�os  hago unma expedicion desde los 16 y este a�o no es la exepcion tengo pensado recibir a�o nuevo en el humboldt partiendo el 30 desde valera si algun o alguna interesada en formar parte del equipo mi correo es edeciohernandez@hotmail.com saludos</span><br><span class="chatboxInfo">21/07/2012 23:58 IP:65.49.14.12</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Hendrick: </span><span class="chatboxMensaje">yorman, estoy agradecido por la respuesta, esta muy buena la explicacion. Estoy interesado en hacer esa travesia pero no la conozco entre El Alto y La Verde...</span><br><span class="chatboxInfo">06/08/2012 18:44 IP:190.121.238.137</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Hendrick: </span><span class="chatboxMensaje">...soy de Barinas,y viajo con un grupo de amigos de aca. Tienes interes en organizar este viaje con nosotros, ya que creo que lo conoces....</span><br><span class="chatboxInfo">06/08/2012 18:48 IP:190.121.238.137</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Hendrick: </span><span class="chatboxMensaje">Mi correo es hysg00@gmail.com Si te interesa por favor enviame alg�n mensaje, o escribe por aqui. Gracias de nuevo</span><br><span class="chatboxInfo">06/08/2012 18:50 IP:190.121.238.137</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">miguel : </span><span class="chatboxMensaje">Holaaa interesados en este maravilloso hato recorrido y excursiones agroturisticas comunicarse al correo miguelbastidas9@gmail.com estaremos a la orden </span><br><span class="chatboxInfo">23/08/2012 17:24 IP:70.35.153.169</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">miguel: </span><span class="chatboxMensaje">hato pi�ero estado cojedes</span><br><span class="chatboxInfo">23/08/2012 17:35 IP:70.35.153.169</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">guillermo: </span><span class="chatboxMensaje">Bueno si dios quiere el 14 de septiembre  para el parque nacional serra de la culata espesificamente para piedras blancas y  pan de azucar que bien y relajado. </span><br><span class="chatboxInfo">27/08/2012 22:21 IP:68.171.231.82</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">dixon palmera : </span><span class="chatboxMensaje">saludos amigos ecoturista tengo planes de ir el 14 y vi que guillermo va ese dia me gustaria contactar con alguien que sepa . pertenesco a un grupo de excursion y es la primera vez que vamos a un sitio asi  </span><br><span class="chatboxInfo">03/09/2012 22:27 IP:200.75.126.254</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">dixon palmera : </span><span class="chatboxMensaje">mi correo es dixonjp2009@gmail.com y el grupo en facebook los tucanes excursionismo ecoturismo de aventura </span><br><span class="chatboxInfo">03/09/2012 22:28 IP:200.75.126.254</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">@franfloyd: </span><span class="chatboxMensaje">Hola, compren la revista National Geographic de este mes, est� la historia de Gerlinde Kaltenbrunner y su ascenso al k2, es la �nica muher de subir las 14 8miles sin oxigeno.</span><br><span class="chatboxInfo">08/09/2012 18:32 IP:190.142.172.215</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">@franfloyd: </span><span class="chatboxMensaje">Me inici� en la monta�a y la cumbre mas alta que he hecho es al Humbold en 2004, y la travesia que hice fue desde la Lagunita (en Trujillo) hasta La Culata (M�rida) ahora tengo una lesi�n en la rodilla, me duele al bajar, cada paso que doy si bajo con peso me duele y hace lenta y dolorosa la bajada, quien conoce un especialista arrecho e rodillas? preferiblemente en Valera o M�rida?</span><br><span class="chatboxInfo">08/09/2012 18:35 IP:190.142.172.215</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">@franfloyd: </span><span class="chatboxMensaje">Tengo as 1eras 3 revistas AL FILO DE LO IMPOSIBLE, interesados�?</span><br><span class="chatboxInfo">08/09/2012 18:40 IP:190.142.172.215</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Francisco: </span><span class="chatboxMensaje">Alguien me podria recomendar una buena operadora turistica en merida que haga excursiones Humboldt/bolivar, estare agradecido por su ayuda.</span><br><span class="chatboxInfo">20/09/2012 14:41 IP:1.1 ISASRVEP</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">francisco walth: </span><span class="chatboxMensaje">hola soy operador de turismo de monta�a en el peru y en especial en la cordillera blanca  y cordillera huayhuash, realiso expediciones organizadas , ya que he tenido la oportunidad de escalar mucho en la cordillera blanca y tengo mucha experiencia , si alguien esta interesado en el tem mi correo es peruworldexpedition@hotmail.com , info@peruworldexpedition.com  saludos monta�eros.</span><br><span class="chatboxInfo">14/10/2012 14:15 IP:190.233.179.216</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">daniel: </span><span class="chatboxMensaje">yo subi el lanin !!!!</span><br><span class="chatboxInfo">03/11/2012 23:20 IP:190.93.215.12</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">eduardo: </span><span class="chatboxMensaje">que mass gente que tal feliz fin de semana hey gente yo a lo mejor en diciembre me voy para chuao por la parte de la monta�a con unos compa�eros y director del grupo de rescate cualquier informacion me escriben a mi numero 0412-6777758</span><br><span class="chatboxInfo">17/11/2012 14:39 IP:186.92.196.151</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jorge: </span><span class="chatboxMensaje">La persona que tiene el problema de rodilla debe chequear su cartilago a nivel del los huesos que la componen y los meniscos. Una persona joven tiene un cartilago de 2 a 3 mm una persona mayor puede llegar a tener un cartilago de 1 a 2 mm, es posoble que menos. Un saludo. Cuida tus cartilagos. Jorge M�rquez..</span><br><span class="chatboxInfo">06/01/2013 15:51 IP:190.36.56.41</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jorge: </span><span class="chatboxMensaje">Amigos,  como les fue en Ecuador? Espero que muy bien Dios Mediante.</span><br><span class="chatboxInfo">06/01/2013 15:54 IP:190.36.56.41</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Hendrick: </span><span class="chatboxMensaje">Saludos a la gente de NATOURA, de parte de la gente de Barinas (Hendrick y Daniel). Traves�a, Sierra Nevada - M�rida, del 07-01 al12-01 (13-01 para Natoura). Que esten bien. </span><br><span class="chatboxInfo">17/01/2013 12:18 IP:190.121.238.132</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">SAN JUAN: </span><span class="chatboxMensaje">Les Recomiendo subir al Cerro platillon en San Juan de los Morros es una columna monta�osa la ultima antes de entrar en los llanos altura maxima 1940 Msnm y tambien ahi cerca vayan a los morros de san juan muy buena vista.... Saludos!!!</span><br><span class="chatboxInfo">22/01/2013 08:17 IP:1.1 ARES</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alexander Rojas: </span><span class="chatboxMensaje">SAludos  desde Caracas, muy buen trabajo en la p�gina con todo esta informaci�n. muy util</span><br><span class="chatboxInfo">20/04/2013 06:11 IP:10.150.13.75</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">veronica : </span><span class="chatboxMensaje">hola </span><br><span class="chatboxInfo">20/05/2013 21:04 IP:200.8.168.9</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">zarahy : </span><span class="chatboxMensaje">estan bella l la naturaleza que nos a regalado </span><br><span class="chatboxInfo">22/05/2013 12:47 IP:200.84.78.124</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">zarahy : </span><span class="chatboxMensaje">estan bella l la naturaleza que nos a regalado Dios</span><br><span class="chatboxInfo">22/05/2013 12:48 IP:200.84.78.124</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">san juan: </span><span class="chatboxMensaje">buenos dias, necesito zapatos de escalada numero 37</span><br><span class="chatboxInfo">05/07/2013 11:53 IP:190.78.164.69</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">gladis: </span><span class="chatboxMensaje">hey! quien sube al pico naiguata la proxima semana?</span><br><span class="chatboxInfo">21/07/2013 01:11 IP:200.82.128.83</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">fgp: </span><span class="chatboxMensaje">subo el 24  de juilo 2013 .. ida por vuelta .. activos?</span><br><span class="chatboxInfo">22/07/2013 14:46 IP:10.2.4.77</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">JORGE: </span><span class="chatboxMensaje">SALUDOS A TODOS LOS VISITANTES DE ESTA PAGINA. QUE IMPORTANTE RETO PERSONAL 20 ASCENSOS A PICOS VENEZOLANOS. BENDICIONES A TODOS LOS MONTA�ISTAS. </span><br><span class="chatboxInfo">24/07/2013 10:16 IP:181.17.129.101</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">CARLOS: </span><span class="chatboxMensaje">SALUDOS </span><br><span class="chatboxInfo">23/08/2013 10:46 IP:1.1 CORPOLARA-TMG</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">gregory ochoa: </span><span class="chatboxMensaje">quien vende un saco de dormir menos 0�</span><br><span class="chatboxInfo">10/09/2013 23:16 IP:190.201.193.129</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">omar: </span><span class="chatboxMensaje">es triste ver que nuestras playas y parques est�n convertidos en basureros por favor no destruyamos   </span><br><span class="chatboxInfo">12/10/2013 21:55 IP:72.174.195.170</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">olga monterola: </span><span class="chatboxMensaje">denuncio que fui excluida de un proyecto introducido en el 2007 de mejora de vivienda del trigal abajo I, por personas del consejo comunal escualido nombrado recientemente, pido al comandante LUIS REYES REYES HAGA JUSTICIA. tlf. de contacto 04266588595</span><br><span class="chatboxInfo">08/06/2014 15:24 IP:200.8.244.172</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alfredo: </span><span class="chatboxMensaje">alguien sabe de algun contacto para que me alquile una habitacion en todasana edo vargas, ya probe todas las posadas y estan full para esa fecha</span><br><span class="chatboxInfo">23/06/2014 19:15 IP:190.72.6.26</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">alfredo : </span><span class="chatboxMensaje">para el sabado el viernes 25 de julio, este es mi tlf 04141440301 gracias</span><br><span class="chatboxInfo">23/06/2014 19:19 IP:190.72.6.26</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">richard: </span><span class="chatboxMensaje">alguin sabe si estan cuandrando una subida al bolivar </span><br><span class="chatboxInfo">19/07/2014 13:29 IP:200.93.88.167</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">richard: </span><span class="chatboxMensaje">Hola los que van al Naiguata van de campamento?</span><br><span class="chatboxInfo">19/07/2014 13:31 IP:200.93.88.167</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jaime Gutierrez: </span><span class="chatboxMensaje">People! quien sube el viernes 25/07/2014 al naiguata? somos 2 hombres y dos mujeres. nunca le hemos dado hasta alla</span><br><span class="chatboxInfo">21/07/2014 13:34 IP:190.153.52.2</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Adrian: </span><span class="chatboxMensaje">Alguien sabe como tramitar los permisos para el sendero Turmero Chuao...</span><br><span class="chatboxInfo">22/07/2014 14:43 IP:190.39.212.42</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">richard: </span><span class="chatboxMensaje">Epa subida para el naiguata este fin me anoto</span><br><span class="chatboxInfo">23/07/2014 22:15 IP:200.93.67.152</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">richard: </span><span class="chatboxMensaje">LLegate a imparques en el parue del este</span><br><span class="chatboxInfo">23/07/2014 22:16 IP:200.93.67.152</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juanv: </span><span class="chatboxMensaje">Alguien sabe si están cuadrando una subida al Pico Bolívar en Agosto </span><br><span class="chatboxInfo">03/08/2014 17:45 IP:190.36.110.207</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">el gran lobo : </span><span class="chatboxMensaje">salgo este viernes 8 de agosto pal mucuñuque y mifes....nos vemos alla!</span><br><span class="chatboxInfo">04/08/2014 08:42 IP:186.95.21.214</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juanv: </span><span class="chatboxMensaje">para el gran lobo Tienes pensado realizar otras rutas llego el 12  de agosto a Mérida     </span><br><span class="chatboxInfo">05/08/2014 22:53 IP:190.36.110.207</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">saib: </span><span class="chatboxMensaje">Chicos disculpen, que tiempo hay de bocono a Niquitao?</span><br><span class="chatboxInfo">13/08/2014 17:49 IP:74.82.68.160</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">gollo: </span><span class="chatboxMensaje">saludos  gracias muy buena informacion</span><br><span class="chatboxInfo">16/08/2014 11:21 IP:186.14.156.9</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Manuel: </span><span class="chatboxMensaje">De Boconó a Niquitao hay aproximadamente 1 hora en carro.</span><br><span class="chatboxInfo">17/08/2014 12:06 IP:200.75.127.13</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">williams : </span><span class="chatboxMensaje">soy williams un pana y yo haremos la caminata de chuao el que quiera hacerla con nosotros escribanos a este cel 0416-9101579</span><br><span class="chatboxInfo">18/08/2014 20:56 IP:186.185.121.248</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Luis: </span><span class="chatboxMensaje">Buenas noches, saben si ya esta permitodo el acceso al los picos en el avila</span><br><span class="chatboxInfo">08/09/2014 20:19 IP:190.206.220.122</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">carolina: </span><span class="chatboxMensaje">quiero ir al roraima necesito el contacto de un guia.. ya que por agencias de viaje es hiperr costosooo</span><br><span class="chatboxInfo">11/09/2014 13:57 IP:186.90.181.245</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">carolina: </span><span class="chatboxMensaje">estoy buscando una cotizacion de equipos de montaña... mi correo es krola700@hot</span><br><span class="chatboxInfo">11/09/2014 14:03 IP:186.90.181.245</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Franco: </span><span class="chatboxMensaje">Buenas noches que saben de los montanistas que rescataron cuando intentaban subir el bolivar.</span><br><span class="chatboxInfo">24/09/2014 17:37 IP:190.79.73.121</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">francis: </span><span class="chatboxMensaje">Carolina busca viajes capino es una opción no es tan costoso yo viaje con el hace poco al roraima</span><br><span class="chatboxInfo">28/09/2014 09:45 IP:190.36.238.114</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jose: </span><span class="chatboxMensaje">Saludos quiero hacer el pico pan de azúcar este fin de semana, alguien va pendiente ? Es primera vez que lo hago, que tal difícil puede ser ? O peligroso ? </span><br><span class="chatboxInfo">09/10/2014 22:26 IP:186.164.229.251</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">francisco: </span><span class="chatboxMensaje">Tengo planificado un expedición de la Lagunita (Trujillo) hasta La Culata (Mérida) en diciembre, mas o menos 6 días de caminata..! ya la hice hace 10 años, quiero repetirla, info WApp 04267718990</span><br><span class="chatboxInfo">11/10/2014 12:04 IP:190.142.173.144</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">pablo zabatta: </span><span class="chatboxMensaje">hola estoy interesado en conseguir alimento hidratado para montañismo xq pienso subir al roraima agradesco me informen donde poder conseguilo gracias amigo mi correo polzabatt@hotmail.com</span><br><span class="chatboxInfo">27/10/2014 17:29 IP:181.183.241.214</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Smithk698: </span><span class="chatboxMensaje">Yeah bookmaking this wasn't a risky conclusion outstanding post! aeedbkaebfdgdaac</span><br><span class="chatboxInfo">18/11/2014 08:43 IP:83.103.18.74</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Danilo: </span><span class="chatboxMensaje">Hola Carolina en que fecha quieres ir al roraima? estoy organizando 3 viajes para diciembre 04122234178</span><br><span class="chatboxInfo">19/11/2014 13:49 IP:190.202.27.9</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Danilo: </span><span class="chatboxMensaje">Alguien conoce una persona en valera que alquile jeep para ir a cabimbu? es ara sacar una excursion a la teta de niquitao.</span><br><span class="chatboxInfo">19/11/2014 13:52 IP:190.202.27.9</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Giomar: </span><span class="chatboxMensaje">Quien sabe cuanto es el pasaje de caracas a bocono, un grupo queremos ir a las tetas de niquitao</span><br><span class="chatboxInfo">03/12/2014 07:12 IP:190.79.198.168</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">cristine: </span><span class="chatboxMensaje">holaaa algun trekking o senderismo en el paramo merida del 14 al 22?</span><br><span class="chatboxInfo">03/12/2014 08:50 IP:181.208.192.68</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Rocio: </span><span class="chatboxMensaje">Hola alguien conoce personas que hagan el servicio de expreso desde el pueblo del cocuy hasta la casa de los herrera? </span><br><span class="chatboxInfo">03/12/2014 14:40 IP:190.146.19.81</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Servando: </span><span class="chatboxMensaje">Saludos! me gustaria hacer el sendero a Chuao a principios de enero, pero no conozco la zona: Hay alguien que quiera hacer de guia? Que suba en esas fechas. Escribanme serva_f@hotmail.com, 7B92720A</span><br><span class="chatboxInfo">10/12/2014 12:50 IP:82.156.150.130</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">nelson : </span><span class="chatboxMensaje">el pasaje para bocono esta al rededor de 300  390 BF EN CUALQUIERA DE LAS LINEAS, LA MEJOR ES TRANSPORTES INDEPENDIENTES. ME ANOTO PARA CUALQUIER EXCURSION A LA TETA DE NIQUITAO O AL PARAMO DE GUIRIGAY. 04122505246 </span><br><span class="chatboxInfo">10/12/2014 13:56 IP:190.38.188.30</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">lerida peña: </span><span class="chatboxMensaje">excelentes fotos.. como siempre,, exitos</span><br><span class="chatboxInfo">11/12/2014 13:52 IP:172.16.5.12</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Andreina: </span><span class="chatboxMensaje">Buenas, un grupo de amigos y yo estaremos mochileando por las costas de aragua. Pasaremos por Choroni, Cepe, Chuao... Quien se quiera unir puede escribirme a 12-10944@usb.ve</span><br><span class="chatboxInfo">28/12/2014 07:14 IP:190.205.237.165</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">hector poleo: </span><span class="chatboxMensaje">sirvo de guia para la ruta de turmero-chuao mi tlf es 0414-144.03.01</span><br><span class="chatboxInfo">31/12/2014 09:47 IP:186.95.39.113</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">William Benjami: </span><span class="chatboxMensaje">Saludos. Alguien sabe quien alquila carpas para acampar en la montaña? Es urgente! willbenjamin@outlook.com</span><br><span class="chatboxInfo">04/01/2015 18:14 IP:190.73.73.227</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">stgo michelena: </span><span class="chatboxMensaje">Buenas tardes, algun grupo con experiencia previa piensa hacer el Pico Bolivar en este Verano. Gracias </span><br><span class="chatboxInfo">07/01/2015 13:06 IP:190.202.121.157</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">willians useche: </span><span class="chatboxMensaje">saludos amigos algun casco y arnes a la venta ... telefono 0414 7095379</span><br><span class="chatboxInfo">09/01/2015 12:58 IP:190.39.253.204</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Manuel: </span><span class="chatboxMensaje">Para donde van en carnaval? Escucho propuestas!</span><br><span class="chatboxInfo">10/01/2015 09:33 IP:200.82.198.77</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Aripaty: </span><span class="chatboxMensaje">Pico Mucunñuque en sierra Nevada en carnaval.  Quien se anima? </span><br><span class="chatboxInfo">11/01/2015 18:31 IP:179.21.201.9</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Boris Albarran : </span><span class="chatboxMensaje">Quien este pendiente de un trekking o senderismo activo.. me inf y me anoto .. SSHA24@hotmail.com </span><br><span class="chatboxInfo">12/01/2015 20:27 IP:190.78.87.234</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Richard : </span><span class="chatboxMensaje">TREKKING. LAGUNA DE SANTO CRISTO! - https://m.facebook.com/events/683993411720098?_rdr</span><br><span class="chatboxInfo">13/01/2015 11:02 IP:186.167.243.17</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Manuel: </span><span class="chatboxMensaje">Yo voy al pico Mucuñuque en carnaval! Somos 3 telf: 0414 527 0092</span><br><span class="chatboxInfo">02/02/2015 18:03 IP:200.82.198.77</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Franklin: </span><span class="chatboxMensaje">Saludos, algun grupo al que pueda unirme de montañismo? Mi cel 0416-6471118 </span><br><span class="chatboxInfo">19/02/2015 16:13 IP:200.8.156.20</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Manuel: </span><span class="chatboxMensaje">Alguien me puede decir donde arreglar/cambiar el piso de una carpa? 0414 527 0092</span><br><span class="chatboxInfo">27/02/2015 20:36 IP:200.82.198.77</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">johan: </span><span class="chatboxMensaje">hola amigos, nos vamos al pico bolivar el 27 de este mes, regtresamos el 05 de abri. quien pendient, que este en codiciones de subirl</span><br><span class="chatboxInfo">08/03/2015 14:37 IP:190.203.203.228</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Anais: </span><span class="chatboxMensaje">Buenas tardes, tienen rutas para merida? N carnavales </span><br><span class="chatboxInfo">12/03/2015 13:59 IP:190.39.69.110</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">daniel: </span><span class="chatboxMensaje">hola buenas tarde salgo desde barquisimeto el domingo a rumbo a subir a los pico noc a cual puedo ir primero que me alcanse llegar a otros de regreso estoy indeciso entre el leo y humboldt si saben algo de el tiempo por alla gracias</span><br><span class="chatboxInfo">26/03/2015 15:34 IP:186.88.39.221</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">María: </span><span class="chatboxMensaje">Yo estuve el fin pasado en la Coromoto y no subí a la verde porque el palo de agua seguido que nos cayó no era normal y preferimos quedarnos</span><br><span class="chatboxInfo">28/03/2015 12:30 IP:186.14.37.122</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Genaro Gonzalez: </span><span class="chatboxMensaje">Saludos, ¿Qué tal el clima por estas fechas?</span><br><span class="chatboxInfo">28/03/2015 13:42 IP:190.77.167.173</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">DANIEL7: </span><span class="chatboxMensaje">me quiero lanzar un humboldt ahorita en semana santa, quien este interesado en ir llameme para cuadrar. 0416-778 68 42.</span><br><span class="chatboxInfo">31/03/2015 00:48 IP:200.8.170.31</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Marco: </span><span class="chatboxMensaje">marcocram1@gmail.com, Tours a los Picos Humboldt, Mifes, Las Verdes o El Duende, Pan de Azúcar, Piedras Blancas, Gavilán y cualquier  reto que se planteen, </span><br><span class="chatboxInfo">03/05/2015 21:04 IP:200.75.120.152</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juan: </span><span class="chatboxMensaje">holaaaaaaaaaa</span><br><span class="chatboxInfo">07/06/2015 19:02 IP:186.167.242.170</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">juan: </span><span class="chatboxMensaje">uuuuuuuuuuuuuuuuugtggggggggggggggggggut</span><br><span class="chatboxInfo">07/06/2015 19:06 IP:186.167.242.170</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">genecis: </span><span class="chatboxMensaje">hola</span><br><span class="chatboxInfo">15/06/2015 11:12 IP:200.84.160.141</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">david: </span><span class="chatboxMensaje">Buenas , quien  m puede dar información de paquetes para subir al pico naiguata !!</span><br><span class="chatboxInfo">17/06/2015 11:39 IP:190.39.197.191</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">yane: </span><span class="chatboxMensaje">hola me pueden decir cual es el sistema montañoso del himalayas porfavor lo nesecito urgente  </span><br><span class="chatboxInfo">19/06/2015 16:07 IP:190.33.224.127</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jose Dominguez: </span><span class="chatboxMensaje">alguien se anima a subir el naiguata este miercoles??</span><br><span class="chatboxInfo">16/07/2015 12:00 IP:190.201.33.64</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Jose Dominguez: </span><span class="chatboxMensaje">yo subire el miercoles 22/07, aqui dejo mi numero para saber quien mas se animaria a ir 04163266421 </span><br><span class="chatboxInfo">16/07/2015 12:02 IP:190.201.33.64</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Cesar: </span><span class="chatboxMensaje">saludos estamos planificando subir el roraima</span><br><span class="chatboxInfo">19/07/2015 11:33 IP:201.243.49.36</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Gladys: </span><span class="chatboxMensaje">Quiero subir la pico naiguata a finales de julio, mi correo para formar grupo porfa luispasillo@gmail.com Gracias</span><br><span class="chatboxInfo">19/07/2015 19:39 IP:201.210.242.112</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Gladys: </span><span class="chatboxMensaje">Voy a Roraima a finales de Agosto!</span><br><span class="chatboxInfo">19/07/2015 19:42 IP:201.210.242.112</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">luis: </span><span class="chatboxMensaje">Quien se anima al humbolt cuadrems fechha hagamos un grupo luisdanbr17@gmail.com</span><br><span class="chatboxInfo">19/07/2015 22:36 IP:190.78.44.167</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Ernest Quintero: </span><span class="chatboxMensaje">Me animo para subir al humbolt... les dejo mi correo ernestquinterog@gmail.com</span><br><span class="chatboxInfo">29/07/2015 16:19 IP:190.60.40.242</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Nerio: </span><span class="chatboxMensaje">Quiero ser montañista que debo hacer ? (tengo 16 años)</span><br><span class="chatboxInfo">30/07/2015 16:26 IP:192.168.90.13</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">luis: </span><span class="chatboxMensaje">Culata-musui este viernes correo luisdanbr17@gmail.com</span><br><span class="chatboxInfo">02/08/2015 19:21 IP:190.78.44.167</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Naelys Bravo: </span><span class="chatboxMensaje">Hola, quisiera hacer la ruta Roraima Tepuy, si pudieran enviarme presupuesto y fechas a mi email, lo agradeceria .... naelysb720@gmail.com</span><br><span class="chatboxInfo">07/08/2015 08:02 IP:190.206.52.226</span></td>
+</tr>
+<tr>
+	<td><span class="chatboxNombre">Marco: </span><span class="chatboxMensaje">Todo el que desee hacer montaña en Merida o iniciarse en esta actividad puede comunicarse con marcocram1@gmail.com </span><br><span class="chatboxInfo">11/08/2015 16:05 IP:201.208.133.35</span></td>
+</tr>

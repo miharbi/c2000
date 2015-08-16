@@ -1,0 +1,35 @@
+/* CSS Document */
+
+.exito {
+	
+	border: 2px #063 solid;
+	color:#063;
+	background-color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 2px 2px 2px #000;
+	width:400px;
+	margin:5px;
+	padding:5px;
+	
+	
+	
+	}
+	.exito2 {
+	
+	border: 2px #900 solid;
+	color:#900;
+	background-color:#fff;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 2px 2px 2px #000;
+	width:400px;
+	margin:5px;
+	padding:5px;
+	
+	
+	
+	}
+
