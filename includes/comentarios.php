@@ -24,7 +24,7 @@ if (isset($_POST["recaptcha_response_field"])) {
 
 
 
-if(isset($_GET[deleteComent])){
+if(isset($_GET['deleteComent'])){
 	
 	//include ('config.php');
 	//include ('conexion.php');	 
@@ -32,7 +32,7 @@ if(isset($_GET[deleteComent])){
 	
 	quitar_inyect();
 	
-	mysql_query("DELETE FROM `comentarios` WHERE `id` = $_GET[deleteComent];")or die(mysql_error());
+	mysql_query("DELETE FROM `comentarios` WHERE `id` = ".$_GET['deleteComent'])or die(mysql_error());
 				
 	
 }
@@ -51,7 +51,7 @@ function isEmail($email)
 	
 if(isset($resp->is_valid)&&!$resp->is_valid)@header("Location:".$_SERVER['HTTP_REFERER']."&captchaError=1");	
 
-if(isset($_GET[newComent])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&isset($_POST['comentario'])&&isset($_POST['id'])&&$resp->is_valid){
+if(isset($_GET['newComent'])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&isset($_POST['comentario'])&&isset($_POST['id'])&&$resp->is_valid){
 
 	if(!isEmail($_POST['correo'])){
 	
@@ -70,13 +70,13 @@ if(isset($_GET[newComent])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&is
 	
 	quitar_inyect();
 	
-	if($_POST[idNew]!=''){
+	if($_POST['idNew']!=''){
 		 	$_POST['id']='includes/homeNoticias.php';
-			$get='&idNew='.$_POST[idNew];
-			$idNew= $_POST[idNew];
-	}elseif($_POST[photoid]!=''){
-		 	$_POST['id']=$_POST[photoid];
-		 	$get='&photoid='.$_POST['id'].'&albumid='.$_POST[albumid];
+			$get='&idNew='.$_POST['idNew'];
+			$idNew= $_POST['idNew'];
+	}elseif($_POST['photoid']!=''){
+		 	$_POST['id']=$_POST['photoid'];
+		 	$get='&photoid='.$_POST['id'].'&albumid='.$_POST['albumid'];
 	}
 	
 	
@@ -106,12 +106,12 @@ if(isset($_GET[newComent])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&is
 		 $mail->AddAddress($destino); // 
 		 $mail->Subject   = "Comentario en cumbres2000.com";
 		 $mail->IsHTML(true); //true
-		 $id=isset($_GET[photoid])?$_GET[photoid]:$_GET[id];
+		 $id=isset($_GET['photoid'])?$_GET['photoid']:$_GET['id'];
 		 $get='';
 		 
-		 if($_POST[albumid]!=''&&$_POST[photoid]!=''){
+		 if($_POST['albumid']!=''&&$_POST['photoid']!=''){
 		 	$_POST['id']='includes/galeria.php';
-			$get='&albumid='.$_POST[albumid].'&photoid='.$_POST[photoid];
+			$get='&albumid='.$_POST['albumid'].'&photoid='.$_POST['photoid'];
 		 }
 		 
 		 
@@ -134,16 +134,16 @@ if(isset($_GET[newComent])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&is
 				
 				
 	
-}elseif((is_numeric($_GET[id]) || isset($_GET[photoid])|| isset($_GET[idNew]))&&!$_PADRE){ 
+}elseif(( ( isset($_GET['id']) && is_numeric($_GET['id']) ) || isset($_GET['photoid'])|| isset($_GET['idNew']))&&!$_PADRE){ 
 	
 	
-	$id=(''!=$_GET[photoid])?$_GET[photoid]:((''!=$_GET[idNew])?$_GET[idNew]:$_GET[id]);
+	$id=(isset($_GET['photoid']) && ''!=$_GET['photoid'])?$_GET['photoid']:((isset($_GET['idNew']) && ''!=$_GET['idNew'])?$_GET['idNew']:$_GET['id']);
 	
-	//echo $id.' '.$_GET[photoid];
+	//echo $id.' '.$_GET['photoid'];
 	
 	$activo=true;
 	
-	if(!isset($_GET[photoid]) && !isset($_GET[idNew])){
+	if(!isset($_GET['photoid']) && !isset($_GET['idNew'])){
 		
 		$sqlValida="SELECT id
 					FROM `contenidos`
@@ -205,7 +205,7 @@ if(isset($_GET[newComent])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&is
 ?>
 
 
-  <div class="comentario"  style=" cursor:pointer;display:<?=($cont<=$comentariosMostrados)?'':'none'?>"><h4><?=ucwords(strtolower($comentario[nombre]))?></h4><span><?=$comentario[fecha].'<br>'.$comentario[ip]?></span><p><?=$comentario[comentario]?></p></div>
+  <div class="comentario"  style=" cursor:pointer;display:<?=($cont<=$comentariosMostrados)?'':'none'?>"><h4><?=ucwords(strtolower($comentario['nombre']))?></h4><span><?=$comentario['fecha'].'<br>'.$comentario['ip']?></span><p><?=$comentario['comentario']?></p></div>
 
 <?php
 $cont--; 
@@ -223,10 +223,10 @@ $cont--;
  </script>
 
 <form action="includes/comentarios.php?newComent=1" name="comentariosForm" id="comentariosForm" method="post" >
-	<input name="id" type="hidden" value="<?=$id?>">
-	<input name="albumid" type="hidden" value="<?=$_GET['albumid']?>">
-	<input name="photoid" type="hidden" value="<?=$_GET['photoid']?>">
-	<input name="idNew" type="hidden" value="<?=$_GET['idNew']?>" value="1">
+	<input name="id" type="hidden" value="<?=isset($id)?$id:''?>">
+	<input name="albumid" type="hidden" value="<?=isset($_GET['albumid'])?$_GET['albumid']:''?>">
+	<input name="photoid" type="hidden" value="<?=isset($_GET['photoid'])?$_GET['photoid']:''?>">
+	<input name="idNew" type="hidden" value="<?=isset($_GET['idNew'])?$_GET['idNew']:''?>" value="1">
 
 
 	<table width="100%" border="0" cellspacing="2" cellpadding="0">

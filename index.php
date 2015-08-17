@@ -3,11 +3,11 @@
 	 include ('includes/config.php');
 	 include ('includes/conexion.php');	 
 	 include ('includes/funciones.php');
-	 if (is_numeric($_GET['id'])){  // Si es un contenido modificable por el administrador
+	 if (isset($_GET['id'])&& is_numeric($_GET['id'])){  // Si es un contenido modificable por el administrador
 	 
-	         $resul= mysql_query("SELECT titulo FROM contenidos WHERE id=$_GET[id] AND status=1 and tipo=1	")or die(mysql_error());
+	         $resul= mysql_query("SELECT titulo FROM contenidos WHERE id=".$_GET['id']." AND status=1 and tipo=1")or die(mysql_error());
 	         $titulo = mysql_fetch_assoc($resul);
-	         $titulo=$titulo[titulo]==''?TITLE:''.$titulo[titulo]; 
+	         $titulo=$titulo['titulo']==''?TITLE:''.$titulo['titulo']; 
          
          }	
 	 
@@ -167,7 +167,7 @@ include('includes/ventanaBienvenida.php');
 <table cellspacing="0" cellpadding="0" width="750" align="center">
 <tr>
 
-<td><table width="100%" border="0" <?=$ancho?>>
+<td><table width="100%" border="0" <?=isset($ancho)?$ancho:''?>>
 <tr><td>
 
 <?php 

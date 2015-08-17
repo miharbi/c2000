@@ -2,7 +2,7 @@
 		
 	 
 	 
-	 if(isset($_GET[idNew])){
+	 if(isset($_GET['idNew'])){
 		 include('includes/mostrarNoticia.php');
 	 }else{
 	 
@@ -21,7 +21,9 @@
 
     <?php
 	$_pagi_cuantos=5;  // Maxima cantidad de noticias por pagina
-	$_pagi_sql="SELECT id,titulo,contenido,DATE_FORMAT(fecha,'%w %e %m %Y') AS fech FROM `contenidos` WHERE tipo=2 ORDER BY fecha DESC $limite";	
+  $limite=isset($limite)?$limite:'';
+	$_pagi_sql="SELECT id,titulo,contenido,DATE_FORMAT(fecha,'%w %e %m %Y') AS fech 
+              FROM `contenidos` WHERE tipo=2 ORDER BY fecha DESC $limite";	
 	include('includes/paginator.inc.php');
 	
 	 $dias = array("Domingo","Lunes","Martes","Mi&eacute;rcoles","Jueves","Viernes","S&aacute;bado");
@@ -42,7 +44,7 @@ $cant=count($result3,COUNT_RECURSIVE); // Cantidad de imagenes+1
 
   $src='';
  
-	$imagen_1= $result3[0][0];
+	$imagen_1= isset($result3[0][0])?$result3[0][0]:'';
 	preg_match_all('/(alt|title|src)=("[^"]*")/i',$imagen_1, $r); // Se obtiene el valor del src de la imagen= $r[2][0]
 	
 	

@@ -1,24 +1,34 @@
 <?php
 
-if($_GET[id]==''&&$_GET[photoid]==''&&$_GET[idNew]==''){
+if(!isset($_GET["id"]) && !isset($_GET["photoid"]) && !isset($_GET["idNew"])){
 	
-	  	$index = mysql_query("SELECT id, fijo,contenido FROM contenidos WHERE home=1")or die(mysql_error());
+	  	$index = mysql_query("SELECT id, fijo,contenido 
+	  						  FROM contenidos 
+	  						  WHERE home=1")or die(mysql_error());
+
         $index = mysql_fetch_assoc($index);
 		 
-		if($index[fijo]=='v')$homeCentro=$index[contenido];
-		else $_GET[id]=$index[id];
+		if($index['fijo']=='v'){
+			$homeCentro=$index['contenido'];
+
+		}else{
+			$_GET["id"]=$index["id"];
+		} 
 	
 	
 }
 	
-	 if (is_numeric($_GET['id'])){  // Si es un contenido modificable por el administrador
+	 if (isset($_GET["id"]) && is_numeric($_GET['id'])){  // Si es un contenido modificable por el administrador
 	 
-         $resul= mysql_query("SELECT contenido,titulo, padre,home  FROM contenidos WHERE id=$_GET[id] AND status=1 and tipo=1	")or die(mysql_error());
+         $resul= mysql_query("SELECT contenido,titulo, padre,home  
+         					  FROM contenidos 
+         					  WHERE id=".$_GET['id']." AND status=1 and tipo=1	")or die(mysql_error());
+
          $ro = mysql_fetch_assoc($resul); 
-		 if($ro[padre]!=0 || is_null($ro[padre])){
+		 if($ro['padre']!=0 || is_null($ro['padre'])){
 			 $contenido='<table width="99%" border="0" cellpadding="0" cellspacing="0"  >';
 			 
-			 if($ro[home]!=1){
+			 if($ro['home']!=1){
 				 $contenido.='<tr>
 									<td colspan="2" class="sub">
 										'.$ro["titulo"].'
@@ -36,7 +46,7 @@ if($_GET[id]==''&&$_GET[photoid]==''&&$_GET[idNew]==''){
 			 
 			 		$hijos="SELECT id,titulo,tipo
 								FROM `contenidos`
-								WHERE `padre` =$_GET[id]  AND status=1 
+								WHERE `padre` =".$_GET['id']."  AND status=1 
 								ORDER BY orden";
 								
 					$hijos=mysql_query($hijos)or die(mysql_error());
@@ -45,10 +55,10 @@ if($_GET[id]==''&&$_GET[photoid]==''&&$_GET[idNew]==''){
 					while($hijo=mysql_fetch_assoc($hijos)){
 						$enlace='href="?id='.$hijo['id'].'"';
 						
-						if($hijo[tipo]==5)
-							$salidaHijos.="<li class='sub2' style='list-style:none; margin-left:-20px;'>".($cont==0?'':"<hr>").$hijo[titulo]."</li>";
+						if($hijo['tipo']==5)
+							$salidaHijos.="<li class='sub2' style='list-style:none; margin-left:-20px;'>".($cont==0?'':"<hr>").$hijo['titulo']."</li>";
 						else
-							$salidaHijos.="<li ><a $enlace>".$hijo[titulo]."</a></li>";
+							$salidaHijos.="<li ><a $enlace>".$hijo['titulo']."</a></li>";
 						$cont++;		
 						
 					}	
@@ -71,7 +81,7 @@ if($_GET[id]==''&&$_GET[photoid]==''&&$_GET[idNew]==''){
 					
 	   $titulo=$ro["titulo"];  
 		 
-	 }else if($_GET['id'] !=''){ // Si es un contenido fijo
+	 }elseif(isset($_GET["id"]) && $_GET['id'] !=''){ // Si es un contenido fijo
 		
 		 $homeCentro=$_GET['id'];
 	 }

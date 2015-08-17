@@ -163,6 +163,7 @@
 		 */
 		function _createImage()
 		{
+			$imgFile=isset($imgFile)?$imgFile:'';
 			$this->_getImageInfo($imgFile);
 			if($this->imgType=='GIF')
 			{

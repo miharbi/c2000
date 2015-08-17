@@ -199,7 +199,7 @@
  // Contamos el total de registros en la BD (para saber cuántas páginas serán)
  // La forma de hacer ese conteo dependerá de la variable $_pagi_conteo_alternativo
  if($_pagi_conteo_alternativo == false){
- 	$_pagi_sqlConta = eregi_replace("select[[:space:]](.*)[[:space:]]from", "SELECT COUNT(*) FROM", $_pagi_sql);
+	$_pagi_sqlConta = preg_replace('#(select)(.*)(from)#si', "$1 COUNT(*) $3", $_pagi_sql);
  	$_pagi_result2 = mysql_query($_pagi_sqlConta);
 	// Si ocurrió error y mostrar errores está activado
  	if($_pagi_result2 == false && $_pagi_mostrar_errores == true){

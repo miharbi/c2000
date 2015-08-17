@@ -45,12 +45,12 @@ function corta_cadena($cadena,$tamananio){
 
 function formatoFecha($fecha){
 	if(strpos($fecha,'-')){
-		$fecha=split('[-]',$fecha);
-		$fecha[2]=split('[ ]',$fecha[2]);
+		$fecha=explode('-',$fecha);
+		$fecha[2]=explode(' ',$fecha[2]);
 	    $fecha[2]=$fecha[2][0];
 		return $fecha[2]."/".$fecha[1]."/".$fecha[0];
 	}elseif(strpos($fecha,'/')){
-		$fecha=split('[/]',$fecha);
+		$fecha=explode('/',$fecha);
 		return $fecha[2]."-".$fecha[1]."-".$fecha[0];
 	}
 	return false;
@@ -306,7 +306,7 @@ function exitsMatriz($valor, $campo, $matriz, &$pos){
 }
 
 function maskFecha($fecha, $char){
-         $aux = split("[".$char."]", $fecha); 
+         $aux = explode("[".$char."]", $fecha); 
 		 return '<strong>'.formatoFecha($aux[0]).'</strong>&nbsp;'.$aux[1];
 } 
 
@@ -429,7 +429,7 @@ function dia(){
 }
 
 function mayorEdad($fecha, $char){
-		 list($dia, $mes, $ano) = split("[".$char."]", $fecha);
+		 list($dia, $mes, $ano) = explode("[".$char."]", $fecha);
 		 
 		 $diaAct = date('d'); $mesAct = date('m'); $anoAct = date('Y');
          
@@ -467,9 +467,9 @@ function ultimasNoticias(){
 	$cont=0;
 	while($result=mysql_fetch_assoc($query)){
 		
-		$fecha=formatoFecha($result[fecha]);
-		$id=$result[id];
-		$titulo=$result[titulo];
+		$fecha=formatoFecha($result['fecha']);
+		$id=$result['id'];
+		$titulo=$result['titulo'];
 		$salida.="<tr><td class='inicio0".($cont++>1?'9':'8')."'>".$fecha." - <a href='?id=includes/homeNoticias.php&idNew=".$id."'>".$titulo."</a></td></tr>";
 	}
 	
@@ -484,9 +484,9 @@ function ultimosContenidos(){
 	$cont=0;
 	while($result=mysql_fetch_assoc($query)){
 		
-		$fecha=formatoFecha($result[fecha]);
-		$id=$result[id];
-		$titulo=$result[titulo];
+		$fecha=formatoFecha($result['fecha']);
+		$id=$result['id'];
+		$titulo=$result['titulo'];
 		$salida.="<tr><td class='inicio0".($cont++>1?'9':'8')."'>".$fecha." - <a href='?id=".$id."'>".$titulo."</a></td></tr>";
 	}
 	
@@ -498,12 +498,9 @@ function ultimosContenidos(){
 <!-- 
     + --------------------------------------------------------- +
     |                                                           |
-    | 	Desarrollado por: Websarrollo, C.A.                     |
+    | 	Desarrollado por: Websarrollo                           |
     | 	Email: info@websarrollo.com                             |
-    | 	Teléfono: 0414-428.42.30/0416-730.10.31/0245-511.38.40  |
-    | 	Web: http://blog.websarrollo.com                        |
-    |        http://www.websarrollo.com                         |
-    | 	Valencia, Edo. Carabobo - Venezuela                     |
+    | 	http://www.websarrollo.com                              |
     |                                                           |
     + --------------------------------------------------------- +
 -->	
