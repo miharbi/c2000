@@ -2,8 +2,8 @@
 <p>Si deseas hacer una sugerencia o consulta, solo debes llenar los datos en el siguiente formulario y en la brevedad posible te responderé. Gracias por el interés.</p>
 </td></tr></table>
 <?php
-		 $destino=mysql_query("SELECT * FROM `contacto` LIMIT 1")or die(mysql_error());
-		 $destino=mysql_fetch_assoc($destino);
+         $destino = mysql_query('SELECT * FROM `contacto` LIMIT 1') or die(mysql_error());
+         $destino = mysql_fetch_assoc($destino);
 ?>		 
 <link href="css/contacto.css" type="text/css" rel="stylesheet" />
 <script type="text/javascript" src="js/contacto.js"></script>
@@ -39,7 +39,7 @@
                         
                           <td >&nbsp;<a href="mailto:<?=$destino['email']?>" style="color:#000"><?=$destino['email']?></a></td>
                         </tr>
-                        <tr style="display:<?=$destino['extra']!=''?'X':'none'?>">
+                        <tr style="display:<?=$destino['extra'] != '' ? 'X' : 'none'?>">
                           <td colspan="2">&nbsp;<?=$destino['extra']?></td>
                         </tr>
                       
@@ -102,13 +102,20 @@
 			<div id="ayudaTitulo">&nbsp;</div>
 			<div id="ayudaTexto">&nbsp;</div>
         </div>
-       <?php if(isset($_GET['error'])){ ?>
+       <?php if (isset($_GET['error'])) {
+    ?>
           <script language="javascript" type="application/javascript">
 			   function mensaje(){
-				   <?php if($_GET['error']=='OK' ){?> alert('Su mensaje fue enviado');   
-				   <?php }else{ ?>alert('__ERROR__ Intente el envio luego'); <?php } ?>	   
+				   <?php if ($_GET['error'] == 'OK') {
+    ?> alert('Su mensaje fue enviado');   
+				   <?php 
+} else {
+    ?>alert('__ERROR__ Intente el envio luego'); <?php 
+}
+    ?>	   
 			   }
 			   mensaje();
 		  </script>
-       <?php }  ?>
-	    <?php $titulo="Contacto";?>
+       <?php 
+}  ?>
+	    <?php $titulo = 'Contacto';?>

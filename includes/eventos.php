@@ -12,4 +12,4 @@
   </td>
   </tr>
   </table>
-  <?php $titulo="Eventos";?>
+  <?php $titulo = 'Eventos';?>

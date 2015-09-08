@@ -1,4 +1,4 @@
-<?php @include("../fckeditor/fckeditor.php") ; ?>
+<?php @include '../fckeditor/fckeditor.php'; ?>
    <link href="../fckeditor/estilos.css" rel="stylesheet" type="text/css"/>
 <div align="center">
 <!--<h1>Crear Secciones </h1>-->
@@ -30,13 +30,15 @@
         <td><select name="padreId" id="padreId">
         <option value="0" selected="selected"></option>
         <?php
-        $res=mysql_query("SELECT id,titulo,fijo,contenido FROM `contenidos` WHERE padre=0 AND tipo=1 AND fijo='f' AND contenido='' ")or die(mysql_error());
-		while ($row = mysql_fetch_assoc($res)) { ?>
+        $res = mysql_query("SELECT id,titulo,fijo,contenido FROM `contenidos` WHERE padre=0 AND tipo=1 AND fijo='f' AND contenido='' ") or die(mysql_error());
+        while ($row = mysql_fetch_assoc($res)) {
+            ?>
            
           <option value="<?=$row['id']?>"><?=$row['titulo']?></option>
           <?php
-		}
-		  ?>
+
+        }
+          ?>
         </select></td>      
       </tr>
       <tr>
@@ -68,15 +70,15 @@
     
     <td >
     <?php
-                $oFCKeditor = new FCKeditor('contenido') ; // es el id y name del campo de texto
-				$oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
-				//$cuerpo= html_entity_decode($cuerpo); // Para que se muestre como elementos HTML y no como 'codigo HTML'
-				$oFCKeditor->Width  = '100%' ; // ancho del formulario
-				$oFCKeditor->Height = '400' ; // alto del formulario
-				$oFCKeditor->Value  = ''; // '$cuerpo' Contenido del textarea
-				$oFCKeditor->Config['AutoDetectLanguage']	= false ;
-	            $oFCKeditor->Config['DefaultLanguage']		= 'es' ;
-				$oFCKeditor->Create() ; //  se crea el textarea	
+                $oFCKeditor = new FCKeditor('contenido'); // es el id y name del campo de texto
+                $oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
+                //$cuerpo= html_entity_decode($cuerpo); // Para que se muestre como elementos HTML y no como 'codigo HTML'
+                $oFCKeditor->Width = '100%'; // ancho del formulario
+                $oFCKeditor->Height = '400'; // alto del formulario
+                $oFCKeditor->Value = ''; // '$cuerpo' Contenido del textarea
+                $oFCKeditor->Config['AutoDetectLanguage'] = false;
+                $oFCKeditor->Config['DefaultLanguage'] = 'es';
+                $oFCKeditor->Create(); //  se crea el textarea
     ?>
     </td>
   </tr>
