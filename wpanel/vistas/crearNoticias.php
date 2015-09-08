@@ -1,4 +1,4 @@
-<?php @include("../fckeditor/fckeditor.php") ; ?>
+<?php @include '../fckeditor/fckeditor.php'; ?>
    <link href="../fckeditor/estilos.css" rel="stylesheet" type="text/css"/>
 
 <h1 align="center">Crear  Noticias</h1>
@@ -27,14 +27,14 @@
     <td  class="etiquetasForm"><p><b>Contenido:</b></p>      </td>
     <td colspan="2">
     <?php
-                $oFCKeditor = new FCKeditor('contenido') ; // es el id y name del campo de texto
-				$oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
-				$oFCKeditor->Width  = '100%' ; // ancho del formulario
-				$oFCKeditor->Height = '400' ; // alto del formulario
-				$oFCKeditor->Value  = ''; // '$cuerpo' Contenido del textarea
-				$oFCKeditor->Config['AutoDetectLanguage']	= false ;
-	            $oFCKeditor->Config['DefaultLanguage']		= 'es' ;
-				$oFCKeditor->Create() ; //  se crea el textarea	
+                $oFCKeditor = new FCKeditor('contenido'); // es el id y name del campo de texto
+                $oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
+                $oFCKeditor->Width = '100%'; // ancho del formulario
+                $oFCKeditor->Height = '400'; // alto del formulario
+                $oFCKeditor->Value = ''; // '$cuerpo' Contenido del textarea
+                $oFCKeditor->Config['AutoDetectLanguage'] = false;
+                $oFCKeditor->Config['DefaultLanguage'] = 'es';
+                $oFCKeditor->Create(); //  se crea el textarea
     ?>
     </td>
   </tr>

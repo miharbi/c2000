@@ -1,4 +1,4 @@
-<?php @include("../fckeditor/fckeditor.php") ; ?>
+<?php @include '../fckeditor/fckeditor.php'; ?>
    <link href="../fckeditor/estilos.css" rel="stylesheet" type="text/css"/>
    
 <!--<script type="text/javascript" src="../../js/baner/jquery-1.4.3.min.js"></script>-->
@@ -8,13 +8,13 @@
 <!--<script type="text/javascript" src="../fckeditor/fckeditor.js"></script>-->
 <?php
 
- $id=$_REQUEST['id'];
- $res=mysql_query("SELECT id,titulo,contenido, fecha FROM `contenidos` WHERE id='$id' ")or die(mysql_error());
- $row = mysql_fetch_assoc($res); 
- $contenido=$row['contenido'];
- $titulo=$row['titulo'];
- $fecha=formatoFecha($row['fecha']);
- 
+ $id = $_REQUEST['id'];
+ $res = mysql_query("SELECT id,titulo,contenido, fecha FROM `contenidos` WHERE id='$id' ") or die(mysql_error());
+ $row = mysql_fetch_assoc($res);
+ $contenido = $row['contenido'];
+ $titulo = $row['titulo'];
+ $fecha = formatoFecha($row['fecha']);
+
  ?>
 
 <h1 align="center">Modificar Noticias</h1>
@@ -46,15 +46,15 @@
     <td  class="etiquetasForm"><p>Contenido:</p>      </td>
     <td colspan="2">
     <?php
-                $oFCKeditor = new FCKeditor('contenido') ; // es el id y name del campo de texto
-				$oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
-				//$contenido= html_entity_decode($contenido); // Para que se muestre como elementos HTML y no como 'codigo HTML'
-				$oFCKeditor->Width  = '100%' ; // ancho del formulario
-				$oFCKeditor->Height = '400' ; // alto del formulario
-				$oFCKeditor->Value  = $contenido; // '$cuerpo' Contenido del textarea
-				$oFCKeditor->Config['AutoDetectLanguage']	= false ;
-	            $oFCKeditor->Config['DefaultLanguage']		= 'es' ;
-				$oFCKeditor->Create() ; //  se crea el textarea	
+                $oFCKeditor = new FCKeditor('contenido'); // es el id y name del campo de texto
+                $oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
+                //$contenido= html_entity_decode($contenido); // Para que se muestre como elementos HTML y no como 'codigo HTML'
+                $oFCKeditor->Width = '100%'; // ancho del formulario
+                $oFCKeditor->Height = '400'; // alto del formulario
+                $oFCKeditor->Value = $contenido; // '$cuerpo' Contenido del textarea
+                $oFCKeditor->Config['AutoDetectLanguage'] = false;
+                $oFCKeditor->Config['DefaultLanguage'] = 'es';
+                $oFCKeditor->Create(); //  se crea el textarea
     ?>
     </td>
   </tr>

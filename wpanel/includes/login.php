@@ -1,20 +1,19 @@
 <?php
       session_start();
-	   include ('../../includes/config.php'); 
-	  include ('../../includes/conexion.php');
-	  include ('../../includes/funciones.php');
-	  
-	   
-	  $query = mysql_query("SELECT * FROM usuarios WHERE login = '".md5(strtolower($_REQUEST['user']))."' AND password = '".md5(strtolower($_REQUEST['clave']))."'") or die (mysql_error());
-      if (mysql_num_rows($query) != 0){	  
-	      $array = mysql_fetch_assoc($query);
-		  $_SESSION['wspanel_user']['nombre'] = $array['nombre'];
-		    echo "<META HTTP-EQUIV=\"refresh\" content=\"0; URL=../index.php\">";
-	  }else{
-	      if (mysql_num_rows($query) == 0){	
-		      echo "<META HTTP-EQUIV=\"refresh\" content=\"0; URL=../form_login.php?msj=no\">";
-		  }
-	  }	  
+       include '../../includes/config.php';
+      include '../../includes/conexion.php';
+      include '../../includes/funciones.php';
+
+      $query = mysql_query("SELECT * FROM usuarios WHERE login = '".md5(strtolower($_REQUEST['user']))."' AND password = '".md5(strtolower($_REQUEST['clave']))."'") or die(mysql_error());
+      if (mysql_num_rows($query) != 0) {
+          $array = mysql_fetch_assoc($query);
+          $_SESSION['wspanel_user']['nombre'] = $array['nombre'];
+          echo '<META HTTP-EQUIV="refresh" content="0; URL=../index.php">';
+      } else {
+          if (mysql_num_rows($query) == 0) {
+              echo '<META HTTP-EQUIV="refresh" content="0; URL=../form_login.php?msj=no">';
+          }
+      }
 ?>
 <!-- 
       + --------------------------------------------------------------- +

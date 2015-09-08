@@ -1,6 +1,6 @@
 <?php	
-$res=mysql_query("SELECT id,direccion, telefono, email, contrasena, extra FROM `contacto` ")or die(mysql_error());
-$row = mysql_fetch_assoc($res);		
+$res = mysql_query('SELECT id,direccion, telefono, email, contrasena, extra FROM `contacto` ') or die(mysql_error());
+$row = mysql_fetch_assoc($res);
 ?>
 
 			

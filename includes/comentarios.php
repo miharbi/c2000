@@ -1,10 +1,10 @@
 <?php 
-error_reporting( E_ALL );
-require_once('recaptchalib.php');
+error_reporting(E_ALL);
+require_once 'recaptchalib.php';
 
 // Get a key from https://www.google.com/recaptcha/admin/create
-$publickey = "6LfCJvYSAAAAAFgp99HyznxUwhBYwnNRzk0Glm3p";
-$privatekey = "6LfCJvYSAAAAAH4tfDcbYW4IOUShTqFNaXHtFE1z";
+$publickey = '6LfCJvYSAAAAAFgp99HyznxUwhBYwnNRzk0Glm3p';
+$privatekey = '6LfCJvYSAAAAAH4tfDcbYW4IOUShTqFNaXHtFE1z';
 
 # the response from reCAPTCHA
 $resp = null;
@@ -12,154 +12,130 @@ $resp = null;
 $error = null;
 
 # was there a reCAPTCHA response?
-if (isset($_POST["recaptcha_response_field"])) {
-        $resp = recaptcha_check_answer ($privatekey,
-                                        $_SERVER["REMOTE_ADDR"],
-                                        $_POST["recaptcha_challenge_field"],
-                                        $_POST["recaptcha_response_field"]);
-
+if (isset($_POST['recaptcha_response_field'])) {
+    $resp = recaptcha_check_answer($privatekey,
+                                        $_SERVER['REMOTE_ADDR'],
+                                        $_POST['recaptcha_challenge_field'],
+                                        $_POST['recaptcha_response_field']);
 }
 
+if (isset($_GET['deleteComent'])) {
 
+    //include ('config.php');
+    //include ('conexion.php');
+    //include ('funciones.php');
 
+    quitar_inyect();
 
-
-if(isset($_GET['deleteComent'])){
-	
-	//include ('config.php');
-	//include ('conexion.php');	 
-	//include ('funciones.php');
-	
-	quitar_inyect();
-	
-	mysql_query("DELETE FROM `comentarios` WHERE `id` = ".$_GET['deleteComent'])or die(mysql_error());
-				
-	
+    mysql_query('DELETE FROM `comentarios` WHERE `id` = '.$_GET['deleteComent']) or die(mysql_error());
 }
 function isEmail($email)
-	{
-		$pattern = "/^([a-zA-Z0-9])+([\.a-zA-Z0-9_-])*@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-]+)+/";
+{
+    $pattern = "/^([a-zA-Z0-9])+([\.a-zA-Z0-9_-])*@([a-zA-Z0-9_-])+(\.[a-zA-Z0-9_-]+)+/";
 
-		if (preg_match($pattern, $email))
-		{
-			return true;
-		} else {
-			return false;
-		}
-	}
-	
-	
-if(isset($resp->is_valid)&&!$resp->is_valid)@header("Location:".$_SERVER['HTTP_REFERER']."&captchaError=1");	
+    if (preg_match($pattern, $email)) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
-if(isset($_GET['newComent'])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&isset($_POST['comentario'])&&isset($_POST['id'])&&$resp->is_valid){
+if (isset($resp->is_valid) && !$resp->is_valid) {
+    @header('Location:'.$_SERVER['HTTP_REFERER'].'&captchaError=1');
+}
 
-	if(!isEmail($_POST['correo'])){
-	
-		
-		
-		echo "<script>alert('Ingrese un Email valido!');</script>";	
-		echo '<meta HTTP-EQUIV="REFRESH" content="0; url='.$_SERVER['HTTP_REFERER'].'">';
-		
-		
-		die();
-	}
-	
-	include ('config.php');
-	include ('conexion.php');	 
-	include ('funciones.php');
-	
-	quitar_inyect();
-	
-	if($_POST['idNew']!=''){
-		 	$_POST['id']='includes/homeNoticias.php';
-			$get='&idNew='.$_POST['idNew'];
-			$idNew= $_POST['idNew'];
-	}elseif($_POST['photoid']!=''){
-		 	$_POST['id']=$_POST['photoid'];
-		 	$get='&photoid='.$_POST['id'].'&albumid='.$_POST['albumid'];
-	}
-	
-	
-	mysql_query("INSERT INTO `comentarios` (
+if (isset($_GET['newComent']) && isset($_POST['nombre']) && isset($_POST['correo']) && isset($_POST['comentario']) && isset($_POST['id']) && $resp->is_valid) {
+    if (!isEmail($_POST['correo'])) {
+        echo "<script>alert('Ingrese un Email valido!');</script>";
+        echo '<meta HTTP-EQUIV="REFRESH" content="0; url='.$_SERVER['HTTP_REFERER'].'">';
+
+        die();
+    }
+
+    include 'config.php';
+    include 'conexion.php';
+    include 'funciones.php';
+
+    quitar_inyect();
+
+    if ($_POST['idNew'] != '') {
+        $_POST['id'] = 'includes/homeNoticias.php';
+        $get = '&idNew='.$_POST['idNew'];
+        $idNew = $_POST['idNew'];
+    } elseif ($_POST['photoid'] != '') {
+        $_POST['id'] = $_POST['photoid'];
+        $get = '&photoid='.$_POST['id'].'&albumid='.$_POST['albumid'];
+    }
+
+    mysql_query("INSERT INTO `comentarios` (
 				id_contenido,
 				`nombre` ,
 				`email` ,
 				`comentario` ,
 				`ip`
 				)
-				VALUES('".($idNew!=''?$idNew:$_POST['id'])."','".$_POST['nombre']."', '".$_POST['correo']."', '".$_POST['comentario']."', '".getIP()."');")or die(mysql_error());
-	 
-	 $idComent=mysql_insert_id();
-	 $res=mysql_query("SELECT email FROM contacto LIMIT 1")or die(mysql_error());  
-	 $fila=mysql_fetch_assoc($res);
-	 $destino=$fila["email"];
-	 	include ('../class/class.phpmailer.php');
-	     $mail = new phpmailer();  // ***************************************************************
-		 $mail->PluginDir = "../class/"; #ruta de la clase smtp
-		 $mail->Mailer    = "smtp";
-		 $mail->Host      = "localhost";
-		 $mail->SMTPAuth  = false; //true
-		
-		 $mail->From      = $destino;   // $mail->From      = destino['email'];
-		 //$mail->FromName  = "[Comentario] - ";
-		 $mail->Timeout   = 30;
-		 $mail->AddAddress($destino); // 
-		 $mail->Subject   = "Comentario en cumbres2000.com";
-		 $mail->IsHTML(true); //true
-		 $id=isset($_GET['photoid'])?$_GET['photoid']:$_GET['id'];
-		 $get='';
-		 
-		 if($_POST['albumid']!=''&&$_POST['photoid']!=''){
-		 	$_POST['id']='includes/galeria.php';
-			$get='&albumid='.$_POST['albumid'].'&photoid='.$_POST['photoid'];
-		 }
-		 
-		 
-		 
-		 
-		 $mail->Body      = "Contenido: ".DOMINIO."?id=".$_POST['id'].$get.($_POST['idNew']!=''?'&idNew='.$_POST['idNew']:'')."<br>
-		 					 Nombre: ".$_POST['nombre']." <br>
-							 Email: ".$_POST['correo']." <br>
-							 Mensaje:".$_POST['comentario']."<br><br>
-							 Eliminar Mensaje: ".DOMINIO."?id=".$_POST['id']."&deleteComent=".$idComent.$get.($_POST['idNew']!=''?'&idNew='.$_POST['idNew']:'');
-							 
-		 //echo "OK";
-		 if ($mail->Send()){
-		    //mail("$destino", "Comentario desde ".proyecto, $msgbox, "From: ".proyecto." <$destino>")
-		    
-		 }
-	
-	@header("Location:".$_SERVER['HTTP_REFERER']);
-				
-				
-				
-	
-}elseif(( ( isset($_GET['id']) && is_numeric($_GET['id']) ) || isset($_GET['photoid'])|| isset($_GET['idNew']))&&!$_PADRE){ 
-	
-	
-	$id=(isset($_GET['photoid']) && ''!=$_GET['photoid'])?$_GET['photoid']:((isset($_GET['idNew']) && ''!=$_GET['idNew'])?$_GET['idNew']:$_GET['id']);
-	
-	//echo $id.' '.$_GET['photoid'];
-	
-	$activo=true;
-	
-	if(!isset($_GET['photoid']) && !isset($_GET['idNew'])){
-		
-		$sqlValida="SELECT id
+				VALUES('".($idNew != '' ? $idNew : $_POST['id'])."','".$_POST['nombre']."', '".$_POST['correo']."', '".$_POST['comentario']."', '".getIP()."');") or die(mysql_error());
+
+    $idComent = mysql_insert_id();
+    $res = mysql_query('SELECT email FROM contacto LIMIT 1') or die(mysql_error());
+    $fila = mysql_fetch_assoc($res);
+    $destino = $fila['email'];
+    include '../class/class.phpmailer.php';
+    $mail = new phpmailer();  // ***************************************************************
+         $mail->PluginDir = '../class/'; #ruta de la clase smtp
+         $mail->Mailer = 'smtp';
+    $mail->Host = 'localhost';
+    $mail->SMTPAuth = false; //true
+
+         $mail->From = $destino;   // $mail->From      = destino['email'];
+         //$mail->FromName  = "[Comentario] - ";
+         $mail->Timeout = 30;
+    $mail->AddAddress($destino); //
+         $mail->Subject = 'Comentario en cumbres2000.com';
+    $mail->IsHTML(true); //true
+         $id = isset($_GET['photoid']) ? $_GET['photoid'] : $_GET['id'];
+    $get = '';
+
+    if ($_POST['albumid'] != '' && $_POST['photoid'] != '') {
+        $_POST['id'] = 'includes/galeria.php';
+        $get = '&albumid='.$_POST['albumid'].'&photoid='.$_POST['photoid'];
+    }
+
+    $mail->Body = 'Contenido: '.DOMINIO.'?id='.$_POST['id'].$get.($_POST['idNew'] != '' ? '&idNew='.$_POST['idNew'] : '').'<br>
+		 					 Nombre: '.$_POST['nombre'].' <br>
+							 Email: '.$_POST['correo'].' <br>
+							 Mensaje:'.$_POST['comentario'].'<br><br>
+							 Eliminar Mensaje: '.DOMINIO.'?id='.$_POST['id'].'&deleteComent='.$idComent.$get.($_POST['idNew'] != '' ? '&idNew='.$_POST['idNew'] : '');
+
+         //echo "OK";
+         if ($mail->Send()) {
+             //mail("$destino", "Comentario desde ".proyecto, $msgbox, "From: ".proyecto." <$destino>")
+         }
+
+    @header('Location:'.$_SERVER['HTTP_REFERER']);
+} elseif (((isset($_GET['id']) && is_numeric($_GET['id'])) || isset($_GET['photoid']) || isset($_GET['idNew'])) && !$_PADRE) {
+    $id = (isset($_GET['photoid']) && '' != $_GET['photoid']) ? $_GET['photoid'] : ((isset($_GET['idNew']) && '' != $_GET['idNew']) ? $_GET['idNew'] : $_GET['id']);
+
+    //echo $id.' '.$_GET['photoid'];
+
+    $activo = true;
+
+    if (!isset($_GET['photoid']) && !isset($_GET['idNew'])) {
+        $sqlValida = "SELECT id
 					FROM `contenidos`
 					WHERE `id` ='$id' AND `comentarios` =1";
-								
-		$activos=mysql_query($sqlValida);
-		
-		$_num=mysql_num_rows($activos);	
-						
-		if($_num==0)	$activo=false;			
-							
-	}
-	
-	if($activo){
-	
-?>
+
+        $activos = mysql_query($sqlValida);
+
+        $_num = mysql_num_rows($activos);
+
+        if ($_num == 0) {
+            $activo = false;
+        }
+    }
+
+    if ($activo) {
+        ?>
 
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
  <tr>
@@ -191,26 +167,30 @@ if(isset($_GET['newComent'])&&isset($_POST['nombre'])&&isset($_POST['correo'])&&
 <tr>
     <td>
 <?php
-	$comentarios="SELECT nombre , comentario , fecha, ip
+    $comentarios = "SELECT nombre , comentario , fecha, ip
 					FROM `comentarios`
 					WHERE `id_contenido` ='$id' 
 					ORDER BY fecha";
-	$comentarios=mysql_query($comentarios)or die(mysql_error());
-	$contComent=mysql_num_rows($comentarios);
-	$comentariosMostrados=4;
-	if($contComent!=0)echo "<h3>Comentarios</h3>";
-	if($contComent>$comentariosMostrados)echo "<span onClick='$(\".comentario\").fadeIn();$(this).fadeOut();' style=' cursor:pointer;'><img src='img/dialog.png' style='border:0;'>Ver $contComent los comentarios</span>";
-	$cont=$contComent;
-	while($comentario=mysql_fetch_assoc($comentarios)){				
-?>
+        $comentarios = mysql_query($comentarios) or die(mysql_error());
+        $contComent = mysql_num_rows($comentarios);
+        $comentariosMostrados = 4;
+        if ($contComent != 0) {
+            echo '<h3>Comentarios</h3>';
+        }
+        if ($contComent > $comentariosMostrados) {
+            echo "<span onClick='$(\".comentario\").fadeIn();$(this).fadeOut();' style=' cursor:pointer;'><img src='img/dialog.png' style='border:0;'>Ver $contComent los comentarios</span>";
+        }
+        $cont = $contComent;
+        while ($comentario = mysql_fetch_assoc($comentarios)) {
+            ?>
 
 
-  <div class="comentario"  style=" cursor:pointer;display:<?=($cont<=$comentariosMostrados)?'':'none'?>"><h4><?=ucwords(strtolower($comentario['nombre']))?></h4><span><?=$comentario['fecha'].'<br>'.$comentario['ip']?></span><p><?=$comentario['comentario']?></p></div>
+  <div class="comentario"  style=" cursor:pointer;display:<?=($cont <= $comentariosMostrados) ? '' : 'none'?>"><h4><?=ucwords(strtolower($comentario['nombre']))?></h4><span><?=$comentario['fecha'].'<br>'.$comentario['ip']?></span><p><?=$comentario['comentario']?></p></div>
 
 <?php
-$cont--; 
-	}
-?>
+$cont--;
+        }
+        ?>
 </td>
   </tr>
 </table>
@@ -219,14 +199,15 @@ $cont--;
  var RecaptchaOptions = {
     theme : 'clean'
  };
- <?=$_GET['captchaError']==1? "alert('Captcha Inválido, No se publicó su comentario.');":"";?>
+ <?=$_GET['captchaError'] == 1 ? "alert('Captcha Inválido, No se publicó su comentario.');" : '';
+        ?>
  </script>
 
 <form action="includes/comentarios.php?newComent=1" name="comentariosForm" id="comentariosForm" method="post" >
-	<input name="id" type="hidden" value="<?=isset($id)?$id:''?>">
-	<input name="albumid" type="hidden" value="<?=isset($_GET['albumid'])?$_GET['albumid']:''?>">
-	<input name="photoid" type="hidden" value="<?=isset($_GET['photoid'])?$_GET['photoid']:''?>">
-	<input name="idNew" type="hidden" value="<?=isset($_GET['idNew'])?$_GET['idNew']:''?>" value="1">
+	<input name="id" type="hidden" value="<?=isset($id) ? $id : ''?>">
+	<input name="albumid" type="hidden" value="<?=isset($_GET['albumid']) ? $_GET['albumid'] : ''?>">
+	<input name="photoid" type="hidden" value="<?=isset($_GET['photoid']) ? $_GET['photoid'] : ''?>">
+	<input name="idNew" type="hidden" value="<?=isset($_GET['idNew']) ? $_GET['idNew'] : ''?>" value="1">
 
 
 	<table width="100%" border="0" cellspacing="2" cellpadding="0">
@@ -251,7 +232,8 @@ $cont--;
 	  
 	  <tr>
 	    <td></td>	
-	    <td ><?php echo recaptcha_get_html($publickey, $error); ?></td>
+	    <td ><?php echo recaptcha_get_html($publickey, $error);
+        ?></td>
 	  </tr>
 	  
 	  
@@ -263,6 +245,7 @@ $cont--;
 
 	
 <?php
-	}
+
+    }
 }
 ?>

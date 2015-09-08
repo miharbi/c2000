@@ -1,19 +1,23 @@
-<?php @include("../fckeditor/fckeditor.php") ; 
-  
-if(isset($_GET['id'])){ 
-  $id=$_GET['id'];
+<?php @include '../fckeditor/fckeditor.php';
+
+if (isset($_GET['id'])) {
+    $id = $_GET['id'];
   /*echo"-- Variables GET --<br />";
   foreach($_GET as $indice => $valor){
-	 echo"$indice: $valor<br />";
+     echo"$indice: $valor<br />";
   }*/
 
-  $res=mysql_query("SELECT id,titulo,orden,padre,fijo,contenido, comentarios FROM `contenidos` WHERE id='$id' ")or die(mysql_error());
-  
-  $res2=mysql_query("SELECT id FROM `contenidos` WHERE padre='$id' ")or die(mysql_error());
+  $res = mysql_query("SELECT id,titulo,orden,padre,fijo,contenido, comentarios FROM `contenidos` WHERE id='$id' ") or die(mysql_error());
 
-if(mysql_num_rows($res2) == 0){$hijos='0';}else{$hijos='1';}
+    $res2 = mysql_query("SELECT id FROM `contenidos` WHERE padre='$id' ") or die(mysql_error());
 
-  $row = mysql_fetch_assoc($res) 
+    if (mysql_num_rows($res2) == 0) {
+        $hijos = '0';
+    } else {
+        $hijos = '1';
+    }
+
+    $row = mysql_fetch_assoc($res)
      //$row['titulo'];
 ?>
    <link href="../fckeditor/estilos.css" rel="stylesheet" type="text/css"/>
@@ -28,8 +32,8 @@ if(mysql_num_rows($res2) == 0){$hijos='0';}else{$hijos='1';}
     <tr>
         <td><label for="comentarios"><b>Permitir Comentarios :</label></td>
         <td><select name="comentarios" id="comentarios" >
-              <option value="1" <?=$row['comentarios']=='1' || $row['comentarios']=='' ?'selected="selected"':''?>>SI</option>
-              <option value="2" <?=$row['comentarios']=='2'?'selected="selected"':''?>>NO</option>
+              <option value="1" <?=$row['comentarios'] == '1' || $row['comentarios'] == '' ? 'selected="selected"' : ''?>>SI</option>
+              <option value="2" <?=$row['comentarios'] == '2' ? 'selected="selected"' : ''?>>NO</option>
             </select>
         </td> 
       </tr>
@@ -45,7 +49,8 @@ if(mysql_num_rows($res2) == 0){$hijos='0';}else{$hijos='1';}
 </tr>
 <tr><td align="center">
 <?php 
-  if($row['contenido'] != ''){  ?>
+  if ($row['contenido'] != '') {
+      ?>
 <!--style="visibility:hidden"-->
 <fieldset id="contenido"  ><legend><strong>Contenido</strong></legend>
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
@@ -54,21 +59,23 @@ if(mysql_num_rows($res2) == 0){$hijos='0';}else{$hijos='1';}
     <td  class="etiquetasForm">      </td>
     <td colspan="2">
     <?php
-                $oFCKeditor = new FCKeditor('contenido') ; // es el id y name del campo de texto
-				$oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
-				//$cuerpo= html_entity_decode($cuerpo); // Para que se muestre como elementos HTML y no como 'codigo HTML'
-				$oFCKeditor->Width  = '100%' ; // ancho del formulario
-				$oFCKeditor->Height = '400' ; // alto del formulario
-				$oFCKeditor->Value  = $row['contenido']; // '$cuerpo' Contenido del textarea
-				$oFCKeditor->Config['AutoDetectLanguage']	= false ;
-	            $oFCKeditor->Config['DefaultLanguage']		= 'es' ;
-				$oFCKeditor->Create() ; //  se crea el textarea	
+                $oFCKeditor = new FCKeditor('contenido'); // es el id y name del campo de texto
+                $oFCKeditor->BasePath = '../fckeditor/'; // ruta al script fckeditor
+                //$cuerpo= html_entity_decode($cuerpo); // Para que se muestre como elementos HTML y no como 'codigo HTML'
+                $oFCKeditor->Width = '100%'; // ancho del formulario
+                $oFCKeditor->Height = '400'; // alto del formulario
+                $oFCKeditor->Value = $row['contenido']; // '$cuerpo' Contenido del textarea
+                $oFCKeditor->Config['AutoDetectLanguage'] = false;
+      $oFCKeditor->Config['DefaultLanguage'] = 'es';
+      $oFCKeditor->Create(); //  se crea el textarea
     ?>
     </td>
   </tr> 
 </table>
 </fieldset>
-<?php }  ?>
+<?php 
+  }
+    ?>
 </td></tr> <tr>
     <td colspan="3">
     <div align="center">
@@ -77,4 +84,5 @@ if(mysql_num_rows($res2) == 0){$hijos='0';}else{$hijos='1';}
     </div></td>
   </tr></table>
 </form>
-<?php }  ?>
+<?php 
+}  ?>

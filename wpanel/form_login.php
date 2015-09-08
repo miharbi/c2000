@@ -1,5 +1,5 @@
 <?php 
-     include ('includes/header.php');
+     include 'includes/header.php';
 ?>
 <form name="login" id="login" method="post" action="includes/login.php" style="padding:0px; margin:0px;">
 <table width="1000" border="0" align="center" cellpadding="0" cellspacing="0" class="tablaPrincipal" >
@@ -46,10 +46,12 @@
 	  <tr style="text-align:center; font-size:11px; font-family:Arial, Helvetica, sans-serif">
 	    <td colspan="2" class="error">
 		         <?php 
-				        if ($_GET['msj']=='no')  echo "Usuario incorrecto, intente luego!";
-				 ?>		</td>
+                        if ($_GET['msj'] == 'no') {
+                            echo 'Usuario incorrecto, intente luego!';
+                        }
+                 ?>		</td>
       </tr>
 	  
 </table>
 </form>
-<?php include ('includes/footer.php'); ?>
+<?php include 'includes/footer.php'; ?>

@@ -1,1 +1,1 @@
-<?php include("shoutbox/shoutbox.php"); ?>
+<?php include 'shoutbox/shoutbox.php';
