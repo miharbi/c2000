@@ -39,7 +39,7 @@ function refresh_shout() {
 	
 		$.ajax({url: "shoutbox/returnshouts.php",
 			success: function (data) {
-			$( "#chatboxMensajes" ).html( data );
+			$( ".chatboxMensajes" ).html( data );
                
                 },
                 fail:function() {

@@ -328,7 +328,7 @@
     $_pagi_url = $_pagi_totalPags; //será el número de página al que enlazamos
     $_pagi_navegacion_temporal[] = '<a '.$_pagi_nav_estilo_mod." href='".$_pagi_enlace.'_pagi_pg='.$_pagi_url."'>$_pagi_nav_ultima</a>";
  }
- $_pagi_navegacion = "<ul id='pagination'><li>".implode($_pagi_separador, $_pagi_navegacion_temporal).'</li>';
+ $_pagi_navegacion = "<ul class='pagination'><li>".implode($_pagi_separador, $_pagi_navegacion_temporal).'</li>';
 
 //------------------------------------------------------------------------
 

@@ -605,3 +605,6 @@
 <tr>
 	<td><span class="chatboxNombre">Marco: </span><span class="chatboxMensaje">Todo el que desee hacer montaña en Merida o iniciarse en esta actividad puede comunicarse con marcocram1@gmail.com </span><br><span class="chatboxInfo">11/08/2015 16:05 IP:201.208.133.35</span></td>
 </tr>
+<tr>
+	<td><span class="chatboxNombre">test: </span><span class="chatboxMensaje">asd</span><br><span class="chatboxInfo">11/09/2015 18:37 IP:192.168.10.1</span></td>
+</tr>

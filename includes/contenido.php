@@ -22,20 +22,13 @@ if (!isset($_GET['id']) && !isset($_GET['photoid']) && !isset($_GET['idNew'])) {
 
          $ro = mysql_fetch_assoc($resul);
          if ($ro['padre'] != 0 || is_null($ro['padre'])) {
-             $contenido = '<table width="99%" border="0" cellpadding="0" cellspacing="0"  >';
+             $contenido = '';
 
              if ($ro['home'] != 1) {
-                 $contenido .= '<tr>
-									<td colspan="2" class="sub">
-										'.$ro['titulo'].'
-									</td>
-								</tr>';
+                 $contenido .= '<h2>'.$ro['titulo'].'</h2>';
              }
 
-             $contenido .= '<tr >
-								<td > '.sustituirCodigo($ro['contenido']).'</td>
-							</tr>
-						</table>';
+             $contenido .= '<div>'.sustituirCodigo($ro['contenido']).'</div>';
          } else {
              $hijos = 'SELECT id,titulo,tipo
 								FROM `contenidos`
@@ -43,32 +36,25 @@ if (!isset($_GET['id']) && !isset($_GET['photoid']) && !isset($_GET['idNew'])) {
 								ORDER BY orden';
 
              $hijos = mysql_query($hijos) or die(mysql_error());
-             $salidaHijos = '<ul class="listado">';
+             $salidaHijos = '<div class="list-group">';
              $cont = 0;
              while ($hijo = mysql_fetch_assoc($hijos)) {
                  $enlace = 'href="?id='.$hijo['id'].'"';
 
-                 if ($hijo['tipo'] == 5) {
-                     $salidaHijos .= "<li class='sub2' style='list-style:none; margin-left:-20px;'>".($cont == 0 ? '' : '<hr>').$hijo['titulo'].'</li>';
+                 if ($hijo['tipo'] == 5 ) {
+                    if (!is_null($hijo['titulo'])) {
+                        $salidaHijos .= '<h4>'.($cont == 0 ? '' : '<hr>').$hijo['titulo'].'</h4>';
+                    }
+                     
                  } else {
-                     $salidaHijos .= "<li ><a $enlace>".$hijo['titulo'].'</a></li>';
+                     $salidaHijos .= '<a class="list-group-item" '.$enlace.' >'.$hijo['titulo'].'</a>';
                  }
                  $cont++;
              }
-             $salidaHijos .= '</ul>';
+             $salidaHijos .= '</div>';
 
-             $contenido = '<table width="99%" border="0" cellpadding="0" cellspacing="0"  >
-							<tr>
-								<td colspan="2" class="sub">
-									'.$ro['titulo'].'
-								</td>
-
-							</tr>
-							<tr >
-								<td > '.$salidaHijos.'
-								</td>
-							</tr>
-						</table>';
+             $contenido = '<h2>'.$ro['titulo'].'</h2>
+							<div class="panel" >'.$salidaHijos.'</div>';
          }
 
          $titulo = $ro['titulo'];

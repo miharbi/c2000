@@ -5,7 +5,7 @@
      include 'includes/funciones.php';
      if (isset($_GET['id']) && is_numeric($_GET['id'])) {  // Si es un contenido modificable por el administrador
 
-             $resul = mysql_query('SELECT titulo FROM contenidos WHERE id='.$_GET['id'].' AND status=1 and tipo=1') or die(mysql_error());
+         $resul = mysql_query('SELECT titulo FROM contenidos WHERE id='.$_GET['id'].' AND status=1 and tipo=1') or die(mysql_error());
          $titulo = mysql_fetch_assoc($resul);
          $titulo = $titulo['titulo'] == '' ? TITLE : ''.$titulo['titulo'];
      }
@@ -44,7 +44,7 @@ if (!isset($sRetry)) {
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head><meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
 
-<title><?=$titulo?></title>
+<title><?=isset($titulo)?$titulo:TITLE ?></title>
 
 
 <meta name="Description" content="<?=DESCRIPTION?>">
@@ -55,13 +55,13 @@ if (!isset($sRetry)) {
 <link href="css/cumbres2000.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="css/agile_carousel.css" type='text/css'>
 <link media="screen" rel="stylesheet" href="css/colorbox.css" />
-<link media="screen" rel="stylesheet" href="css/paginator.css" />
 <link rel="shortcut icon" href="http://www.cumbres2000.com/img/cumbres2000.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" media="screen,projection" href="css/ui.totop.css" />
 <script type="text/javascript" src="/jwplayer/jwplayer.js" ></script>
 <script>jwplayer.key="NYTv9OWxXweJjOICkv5jfz7aQk/gs/DxMYeHrw=="</script>
  
- <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+ <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+ <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
  <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
  <script type="text/javascript" src="js/funciones.js"></script>
  <script src="js/easing.js" type="text/javascript"></script>
@@ -91,10 +91,19 @@ $("body").css("backgroundImage", "/img/fondo_" + backgroundImage + ".jpg");
 */
 
  </script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="/css/themes/cosmo.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 </head>
-<body >
-
+<body style="padding-top: 70px; ">
+<div class="container-fluid">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
@@ -105,96 +114,12 @@ $("body").css("backgroundImage", "/img/fondo_" + backgroundImage + ".jpg");
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <?php
-include 'includes/ventanaBienvenida.php';
+    include 'includes/ventanaBienvenida.php';
+    include 'views/nav_top.php';
+    include 'views/nav_left.php'; 
+    include 'views/content.php';
+    include 'views/footer.php'; 
 ?>
-<!-- Tabla de Arriba -->
-<table width="100%" background="img/fondo_cabecera.png" height="70">
- <tr>
-  <td valign="top">
-<table width="980" border="0" align="center" cellpadding="0" cellspacing="0" height="75">
- <tr>
-  <td valign="middle" width="320">&nbsp;&nbsp;<a href="index.php"><img src="img/logo.png" width="175" height="73" border="0" title="Cumbres2000.com"/></a></td>
-
-  <td class="frase" width="300" valign="middle" align="center"><strong>Pensamiento de Monta&ntilde;ismo</strong><br><script language="JavaScript" src="js/frase.js"> </script></td>
-<td valign="middle" align="right">
-<table border="0" align="right" cellpadding="0" cellspacing="0" width="200">
-<tr><td colspan="2" class="seguir">Redes Sociales:</td><td></tr>
-<tr>
-<td width="50"><a  target="_blank" href="https://www.facebook.com/pages/Cumbres2000/172992899418225"><img src="img/facebook.png" width="35" height="35" border="0" title="Facebook"/></a></td>
-<td width="50"><a  target="_blank" href="http://instagram.com/cumbres2000"><img src="img/instagram.png" width="35" height="35" border="0" title="Instagram"/></a></td>
-<td width="50"><a  target="_blank" href="http://www.twitter.com/Cumbres2000"><img src="img/twitter.png" width="35" height="35" border="0" title="Twitter"/></a></td>
-<td width="50"><a  target="_blank" href="https://vimeo.com/davidrclimb"><img src="img/vimeo.gif" width="35" height="35" border="0" title="Vimeo"/></a></td>
-
-</tr>
-</table>
-</td>
- </tr>
-</table>
-</td></tr></table>
-<!-- Fin Tabla de Arriba -->
-
-<br>
-
-<table width="980" border="0" align="center" cellpadding="0" cellspacing="0">
- <tr>
-
-
-<!-- Menu Izquierda -->
-<td class="menu_izq" width="180" valign="top">
-<table width="180" border="0" cellpadding="0" cellspacing="0">
- <tr>
-  <td>
-<?php include 'includes/homeMenu.php'; ?>
-<br>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr><td class="menu_izq2" valign="middle">&nbsp;&nbsp;&nbsp;&nbsp;Chatbox</td></tr>
-<tr><td class="menu_izq3" valign="middle"><iframe src="shoutbox.php" marginheight="1" marginwidth="1" allowtransparency="yes" width="170" frameborder="0" height="400" scrolling="auto"></iframe></td></tr>
-</table>
-<br>
-<table width="100%" border="0" cellpadding="0" cellspacing="0">
-<tr><td class="menu_izq2" valign="middle">&nbsp;&nbsp;&nbsp;Cumbres2000 en Facebook</td></tr>
-<tr><td class="menu_izq4" valign="middle"><iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FCumbres2000%2F172992899418225&amp;width=180&amp;colorscheme=light&amp;show_faces=false&amp;stream=false&amp;header=false&amp;height=90" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:180px; height:90px;" allowTransparency="true"></iframe></td></tr></table></td></tr></table></td>
-
-<!-- Fin Menu Izquierda -->
-
-
-<!-- Contenido -->
-<td valign="top"><table width="790" border="0" align="center">
-<tr>
-  <td class="contenido">
-<table cellspacing="0" cellpadding="0" width="750" align="center">
-<tr>
-
-<td><table width="100%" border="0" <?=isset($ancho) ? $ancho : ''?>>
-<tr><td>
-
-<?php 
-    include 'includes/contenido.php';
-    include 'includes/comentarios.php';
-?>
-
-
-</td></tr>
-
-
-
-</table>
-</td>
-</tr>
-</table>
-</td>
-</tr>
-<!-- Fin Contenido -->
-
-
-<!-- Pie de Pagina -->
-<tr><td><table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
-<tr><td align="left" width="60%" class="pie">Background: Amanecer sobre los Picos Humboldt y Bonpland</td><td width="40%" align="right" class="pie">Web de David Rivas: Monta&ntilde;ista Venezolano</td></tr></table> 
-</td></tr> 
-<!-- Fin Pie de Pagina --> 
-</table></td> 
-</tr> 
-</table> 
- 
+ </div>
 </body> 
 </html>

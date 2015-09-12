@@ -19,16 +19,21 @@
 
     define('DOMINIO', $config['base_url']);
     define('DIRECTORIO', '/');
-    define('CARPETA_ADMIN', 'admin/');    define('EMAIL_CONTACTO', 'contacto@gmail.com');
+    define('CARPETA_ADMIN', 'admin/');    
+    define('EMAIL_CONTACTO', 'cumbres2000@gmail.com');
     define('EMAIL_NO_RESPONDA', 'noresponda@gmail.com');
     define('PERSONA_CONTACTO', 'Equipo cumbres2000.com');
 
     #Configuraci�n de metas de la pagina principal
-    define('TITLE', 'Portal de Montañismo. Por David Rivas');
+    define('TITLE', 'Cumbres2000 - Portal de Montañismo');
     define('COPYRIGHT', 'Cumbres2000.com');
-    define('AUTHOR', 'Cumbres2000.com');
-    define('DESCRIPTION', 'Portal de Montañismo. Por David Rivas');
-    define('KEYWORDS', 'cumbres2000');
+    define('AUTHOR', 'David Rivas');
+    define('DESCRIPTION', 'Portal de Montañismo');
+    define('KEYWORDS', 'Montañismo, Montanismo, Venezuela, 
+                        Escalada, Merida, Carabobo, Caracas, 
+                        Noticias de Montañismo, Alpinismo, Pico Bolivar,
+                        Avila, Pico Naiguata, Picos Humboldt y Bonpland, Aconcagua, Chimborazo,
+                        Roraima');
 
     #Configuracion de la conexion a la base de datos
     define('HOST', 'localhost');

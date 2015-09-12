@@ -137,16 +137,10 @@ if (isset($_GET['newComent']) && isset($_POST['nombre']) && isset($_POST['correo
     if ($activo) {
         ?>
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
- <tr>
-    <td valign="middle">
-<table width="400" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td><div class="fb-share-button" data-type="button_count"></div></td>
-    <td><a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
+<div class="fb-share-button" data-type="button_count"></div>
+<a href="https://twitter.com/share" class="twitter-share-button" data-lang="es">Twittear</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-</td>
-    <td><div class="g-plusone" data-size="medium"></div>
+<div class="g-plusone" data-size="medium"></div>
 <script type="text/javascript">
   window.___gcfg = {lang: 'es'};
 
@@ -155,17 +149,7 @@ if (isset($_GET['newComent']) && isset($_POST['nombre']) && isset($_POST['correo
     po.src = 'https://apis.google.com/js/platform.js';
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
   })();
-</script> </td>
-  </tr>
-</table>
-
-
-</td>
-
-
-  </tr>
-<tr>
-    <td>
+</script> 
 <?php
     $comentarios = "SELECT nombre , comentario , fecha, ip
 					FROM `comentarios`
@@ -183,64 +167,50 @@ if (isset($_GET['newComent']) && isset($_POST['nombre']) && isset($_POST['correo
         $cont = $contComent;
         while ($comentario = mysql_fetch_assoc($comentarios)) {
             ?>
-
-
-  <div class="comentario"  style=" cursor:pointer;display:<?=($cont <= $comentariosMostrados) ? '' : 'none'?>"><h4><?=ucwords(strtolower($comentario['nombre']))?></h4><span><?=$comentario['fecha'].'<br>'.$comentario['ip']?></span><p><?=$comentario['comentario']?></p></div>
-
-<?php
-$cont--;
-        }
-        ?>
-</td>
-  </tr>
-</table>
+          <div class="comentario"  style=" cursor:pointer;display:<?=($cont <= $comentariosMostrados) ? '' : 'none'?>">
+            <h4><?=ucwords(strtolower($comentario['nombre']))?> </h4>
+            <h6><small><?=$comentario['fecha'].' - '.$comentario['ip']?></small></h6> 
+            <p><?=$comentario['comentario']?></p>
+          </div>
+        <?php $cont--; } ?>
 
  <script type="text/javascript">
  var RecaptchaOptions = {
     theme : 'clean'
  };
- <?=$_GET['captchaError'] == 1 ? "alert('Captcha Inválido, No se publicó su comentario.');" : '';
-        ?>
+ <?php echo $_GET['captchaError'] ? "alert('Captcha Inválido, No se publicó su comentario.');" : ""; ?>
  </script>
 
-<form action="includes/comentarios.php?newComent=1" name="comentariosForm" id="comentariosForm" method="post" >
+<form action="includes/comentarios.php?newComent=1" name="comentariosForm" id="comentariosForm" method="post" class="form-horizontal panel" >
 	<input name="id" type="hidden" value="<?=isset($id) ? $id : ''?>">
 	<input name="albumid" type="hidden" value="<?=isset($_GET['albumid']) ? $_GET['albumid'] : ''?>">
 	<input name="photoid" type="hidden" value="<?=isset($_GET['photoid']) ? $_GET['photoid'] : ''?>">
 	<input name="idNew" type="hidden" value="<?=isset($_GET['idNew']) ? $_GET['idNew'] : ''?>" value="1">
-
-
-	<table width="100%" border="0" cellspacing="2" cellpadding="0">
-	  <tr>
-	    <td colspan="2"><h3>Deja un comentario</h3>
+    <h3>Deja un comentario</h3>
 	    <!--<span style="font-size:9px;">
 	       Tu dirección de correo electrónico no será publicada. Los campos necesarios están marcados *
-	    </span>--></td>
-	  </tr>
-	  <tr>
-	    <td width="20%"><label for="author">Nombre</label></td>
-	    <td width="80%"><input name="nombre" type="text" class="inputNormal" id="nombre" size="30" requerido="Nombre"></td>
-	  </tr>
-	  <tr>
-	    <td><label for="email" >Correo electrónico</label></td>
-	    <td><input name="correo" type="text" class="inputNormal" value="" id="correo" size="30" requerido="Email"></td>
-	  </tr>
-	  <tr>
-	    <td><label for="comentario">Comentario</label></td>
-	    <td><textarea name="comentario" class="inputNormal" id="comentario" cols="70" rows="5" requerido="Comentario"></textarea></td>
-	  </tr>
+	    </span>-->
+        <div class="form-group">
+        	  <label for="author" class="col-sm-3 control-label">Nombre:</label>
+              <div class="col-sm-9">
+        	  <input name="nombre" type="text" class="form-control" id="nombre" size="30" requerido="Nombre">
+              </div>
+        </div>      
+	    <div class="form-group">
+    	  <label for="email" class="col-sm-3 control-label">Correo electrónico:</label>
+          <div class="col-sm-9">
+    	  <input name="correo" type="text" class="form-control" value="" id="correo" size="30" requerido="Email">
+          </div>
+	     </div>
+         <div class="form-group">
+	       <label for="comentario" class="col-sm-3 control-label">Comentario:</label>
+           <div class="col-sm-9">
+	       <textarea name="comentario" class="form-control" id="comentario" cols="70" rows="5" requerido="Comentario"></textarea>
+           </div>
+        </div>
+        <div class="row col-sm-offset-3"><?php echo recaptcha_get_html($publickey, $error); ?></div>
+	    <div class="row col-sm-offset-3"><input class="btn btn-primary" type="button" name="enviar" id="enviar" value="Publicar Comentario" onClick=" if(valida())$('#comentariosForm').submit(); "></div>
 	  
-	  <tr>
-	    <td></td>	
-	    <td ><?php echo recaptcha_get_html($publickey, $error);
-        ?></td>
-	  </tr>
-	  
-	  
-	  <tr>
-	  	<td><input type="button" name="enviar" id="enviar" value="Publicar Comentario" onClick=" if(valida())$('#comentariosForm').submit(); ">	   </td>
-	  </tr>
-	</table>
 </form>
 
 	

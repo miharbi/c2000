@@ -1,8 +1,8 @@
-<table width="100%" border="0" cellpadding="0" cellspacing="0" > 
- <tr><td  width="210" class="menu_izq2" ><form action="?id=includes/busqueda.php" method="post" style="margin:0; padding:0;"><input placeholder="Buscar..." name="dato" style="width:90%; height:18px; border:0; background-position:2px; background-image:url(img/search.png); background-repeat:no-repeat; padding-left:17px;" type="text" /></form></td></tr>      
-<?php
-
-    $res = mysql_query('SELECT id,titulo,fijo,contenido, home FROM `contenidos` WHERE tipo=1 AND (padre=0 OR padre=55) AND status=1 ORDER BY home DESC, orden ASC') or die(mysql_error());
+  <?php
+      $res = mysql_query('SELECT id,titulo,fijo,contenido, home 
+                          FROM `contenidos` 
+                          WHERE tipo=1 AND (padre=0 OR padre=55) AND status=1 
+                          ORDER BY home DESC, orden ASC') or die(mysql_error());
       $contador = 0;
       $_PADRE = false;
       $menu = '';
@@ -15,14 +15,25 @@
          if (isset($_GET['id']) && $row['id'] == $_GET['id']) {
              $_PADRE = true;
          }
+          if (isset($top_nav)) {
+            $menu .= '<li>';
+          }
 
-          $menu .= '<tr>
-	     			<td  width="210" class="menu_izq2" >&nbsp;<img src="img/flecha.png" height="10" width="7">
-	     				&nbsp;&nbsp;<a href="?id='.$enlace.'">'.($row['home'] == 1 ? 'Inicio' : $row['titulo']).'</a>
-	     			</td>
-	     		</tr>';
+          $menu .= '<a class="'.(!isset($top_nav)? 'list-group-item' : 'visible-xs').'  " style="font-size: initial;" role="button" href="?id='.$enlace.'">'.($row['home'] == 1 ? 'Inicio' : $row['titulo']).'</a>';
+
+          if (isset($top_nav)) {
+            $menu .= '</li>';
+          }
       }
+      if (!isset($top_nav)) {
+        print '<div class="list-group '.(!isset($top_nav)? 'hidden-xs':'').'"  >';
+      }
+   
+      print $menu;
 
-   print $menu;
-   ?>  
-</table>
+      if (!isset($top_nav)) {
+        print '</div>';
+      }else{
+        unset($top_nav);
+      }
+?>  

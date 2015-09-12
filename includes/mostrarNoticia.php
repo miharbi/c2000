@@ -15,16 +15,8 @@
 
     $contenido = $row['contenido'];
 ?>
-    <div >
-	<table width="100%" border="0" >   
-
-    <tr><td style="font-family:Verdana, Arial, Helvetica, sans-serif; font-weight: bold; padding-top:10px"> 	 
-    <?=ucfirst($titulo);?>
-    </td></tr>
-    <tr><td align="left" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#666"><?=$ff?></td></tr>
-    <tr><td style="font-family:Verdana, Arial, Helvetica, sans-serif;">
-    <?=$contenido;?>
-    </td></tr></table>
-    </div>
+    <h2><?=ucfirst($titulo);?></h2>  
+    <h4><small><?=$ff?></small></h4>
+    <p><?=$contenido;?></p>
 
    

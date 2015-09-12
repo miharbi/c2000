@@ -19,13 +19,11 @@
 	float:right;
 	color:#333333;
 }
-#chatboxMensajes {
+.chatboxMensajes {
 	overflow:auto; 
 	vertical-align:top; 
-	height:250px; padding-right: 0px;
-}
-.chatboxTabla {
-	BORDER-LEFT: #CCCCCC 1px solid; BORDER-TOP: #CCCCCC 1px solid; BORDER-BOTTOM: #CCCCCC 1px solid; BORDER-RIGHT: #CCCCCC 1px solid; 
+	height:250px; 
+	padding-right: 0;
 }
 .chatboxError {
 	color:#CC9900;
