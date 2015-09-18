@@ -170,7 +170,7 @@ if (isset($_GET['newComent']) && isset($_POST['nombre']) && isset($_POST['correo
           <div class="comentario"  style=" cursor:pointer;display:<?=($cont <= $comentariosMostrados) ? '' : 'none'?>">
             <h4><?=ucwords(strtolower($comentario['nombre']))?> </h4>
             <h6><small><?=$comentario['fecha'].' - '.$comentario['ip']?></small></h6> 
-            <p><?=$comentario['comentario']?></p>
+            <p><?=htmlentities($comentario['comentario'])."[".$comentario['comentario']."]"?></p>
           </div>
         <?php $cont--; } ?>
 
